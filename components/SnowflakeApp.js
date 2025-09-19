@@ -67,7 +67,7 @@ const emptyState = (): SnowflakeAppState => {
       'SCOPING & ESTIMATION': 0,
       'BEST PRACTICE ADVOCACY': 0
     },
-    focusedTrackId: 'INTEGRATION EXPERTISE'
+    focusedTrackId: 'COMMUNICATION'
   }
 }
 
@@ -93,7 +93,7 @@ const defaultState = (): SnowflakeAppState => {
       'SCOPING & ESTIMATION': 3,
       'BEST PRACTICE ADVOCACY': 0
     },
-    focusedTrackId: 'INTEGRATION EXPERTISE'
+    focusedTrackId: 'COMMUNICATION'
   }
 }
 
