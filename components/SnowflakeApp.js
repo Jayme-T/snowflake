@@ -50,24 +50,24 @@ const emptyState = (): SnowflakeAppState => {
     name: '',
     title: '',
     milestoneByTrack: {
-      'COMMUNICATION': 0,
+      'INTEGRATION EXPERTISE': 0,
       'CUSTOMER ADVOCACY': 0,
       'ACCOUNT PARTNERSHIP': 0,
       'DELIVERABLES': 0,
-      'PROJECT_MANAGEMENT': 0,
-      'COMMUNICATION': 0,
-      'CRAFT': 0,
-      'INITIATIVE': 0,
-      'CAREER_DEVELOPMENT': 0,
-      'ORG_DESIGN': 0,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 0,
-      'MENTORSHIP': 0,
-      'EVANGELISM': 0,
-      'RECRUITING': 0,
-      'COMMUNITY': 0
+      'TROUBLESHOOTING': 0,
+      'INTEGRATION EXPERTISE': 0,
+      'DATA ANALYTICS': 0,
+      'PLATFORM AND PRODUCT KNOWLEDGE': 0,
+      'COLLABORATION': 0,
+      'SOLUTION DESIGN': 0,
+      'CROSS-FUNCTIONAL INFLUENCE': 0,
+      'PROJECT LEADERSHIP': 0,
+      'SOLUTION DESIGN': 0,
+      'TECHNICAL STRATEGY': 0,
+      'SCOPING & ESTIMATION': 0,
+      'BEST PRACTICE ADVOCACY': 0
     },
-    focusedTrackId: 'COMMUNICATION'
+    focusedTrackId: 'INTEGRATION EXPERTISE'
   }
 }
 
@@ -76,24 +76,24 @@ const defaultState = (): SnowflakeAppState => {
     name: 'Cersei Lannister',
     title: 'Staff Engineer',
     milestoneByTrack: {
-      'COMMUNICATION': 1,
+      'INTEGRATION EXPERTISE': 1,
       'CUSTOMER ADVOCACY': 2,
       'ACCOUNT PARTNERSHIP': 3,
       'DELIVERABLES': 2,
-      'PROJECT_MANAGEMENT': 4,
-      'COMMUNICATION': 1,
-      'CRAFT': 1,
-      'INITIATIVE': 4,
-      'CAREER_DEVELOPMENT': 3,
-      'ORG_DESIGN': 2,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 4,
+      'TROUBLESHOOTING': 4,
+      'INTEGRATION EXPERTISE': 1,
+      'DATA ANALYTICS': 1,
+      'PLATFORM AND PRODUCT KNOWLEDGE': 4,
+      'COLLABORATION': 3,
       'MENTORSHIP': 2,
-      'EVANGELISM': 2,
-      'RECRUITING': 3,
-      'COMMUNITY': 0
+      'CROSS-FUNCTIONAL INFLUENCE': 0,
+      'PROJECT LEADERSHIP': 4,
+      'SOLUTION DESIGN': 2,
+      'TECHNICAL STRATEGY': 2,
+      'SCOPING & ESTIMATION': 3,
+      'BEST PRACTICE ADVOCACY': 0
     },
-    focusedTrackId: 'COMMUNICATION'
+    focusedTrackId: 'INTEGRATION EXPERTISE'
   }
 }
 
