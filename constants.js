@@ -2,9 +2,9 @@
 import * as d3 from 'd3'
 
 export type TrackId = 'COMMUNICATION' | 'CUSTOMER ADVOCACY' | 'ACCOUNT PARTNERSHIP' | 'DELIVERABLES' |
-  'TROUBLE-SHOOTING' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
-  'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
-  'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
+  'TROUBLESHOOTING' | 'INTEGRATION EXPERTISE' | 'DATA ANALYTICS' | 'PLATFORM AND PRODUCT KNOWLEDGE' |
+  'COLLABORATION' | 'MENTORSHIP' | 'CROSS-FUNCTIONAL INFLUENCE' | 'PROJECT LEADERSHIP' |
+  'SOLUTION DESIGN' | 'TECHNICAL STRATEGY' | 'SCOPING & ESTIMATION' | 'BEST PRACTICE ADVOCACY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
@@ -12,18 +12,18 @@ export type MilestoneMap = {
   'CUSTOMER ADVOCACY': Milestone,
   'ACCOUNT PARTNERSHIP': Milestone,
   'DELIVERABLES': Milestone,
-  'PROJECT_MANAGEMENT': Milestone,
-  'COMMUNICATION': Milestone,
-  'CRAFT': Milestone,
-  'INITIATIVE': Milestone,
-  'CAREER_DEVELOPMENT': Milestone,
-  'ORG_DESIGN': Milestone,
-  'WELLBEING': Milestone,
-  'ACCOMPLISHMENT': Milestone,
+  'TROUBLESHOOTING': Milestone,
+  'INTEGRATION EXPERTISE': Milestone,
+  'DATA ANALYTICS': Milestone,
+  'PLATFORM AND PRODUCT KNOWLEDGE': Milestone,
+  'COLLABORATION': Milestone,
   'MENTORSHIP': Milestone,
-  'EVANGELISM': Milestone,
-  'RECRUITING': Milestone,
-  'COMMUNITY': Milestone
+  'CROSS-FUNCTIONAL INFLUENCE': Milestone,
+  'PROJECT LEADERSHIP': Milestone,
+  'SOLUTION DESIGN': Milestone,
+  'TECHNICAL STRATEGY': Milestone,
+  'SCOPING & ESTIMATION': Milestone,
+  'BEST PRACTICE ADVOCACY': Milestone
 }
 export const milestones = [0, 1, 2, 3, 4, 5]
 
@@ -75,18 +75,19 @@ type Tracks = {|
   'CUSTOMER ADVOCACY': Track,
   'ACCOUNT PARTNERSHIP': Track,
   'DELIVERABLES': Track,
-  'PROJECT_MANAGEMENT': Track,
-  'COMMUNICATION': Track,
-  'CRAFT': Track,
-  'INITIATIVE': Track,
-  'CAREER_DEVELOPMENT': Track,
-  'ORG_DESIGN': Track,
-  'WELLBEING': Track,
-  'ACCOMPLISHMENT': Track,
+  'TROUBLESHOOTING': Track,
+  'INTEGRATION EXPERTISE': Track,
+  'DATA ANALYTICS': Track,
+  'PLATFORM AND PRODUCT KNOWLEDGE'': Track,
+  'COLLABORATION': Track,
   'MENTORSHIP': Track,
-  'EVANGELISM': Track,
-  'RECRUITING': Track,
-  'COMMUNITY': Track
+  'CROSS-FUNCTIONAL INFLUENCE': Track,
+  'PROJECT LEADERSHIP': Track,
+  'SOLUTION DESIGN': Track,
+  'TECHNICAL STRATEGY': Track,
+  'SCOPING & ESTIMATION': Track,
+  'BEST PRACTICE ADVOCACY': Track,
+
 |}
 
 export const tracks: Tracks = {
