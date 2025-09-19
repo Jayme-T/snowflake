@@ -50,7 +50,7 @@ const emptyState = (): SnowflakeAppState => {
     name: '',
     title: '',
     milestoneByTrack: {
-      'INTEGRATION EXPERTISE': 0,
+      'COMMUNICATION': 0,
       'CUSTOMER ADVOCACY': 0,
       'ACCOUNT PARTNERSHIP': 0,
       'DELIVERABLES': 0,
@@ -59,7 +59,7 @@ const emptyState = (): SnowflakeAppState => {
       'DATA ANALYTICS': 0,
       'PLATFORM AND PRODUCT KNOWLEDGE': 0,
       'COLLABORATION': 0,
-      'SOLUTION DESIGN': 0,
+      'MENTORSHIP': 0,
       'CROSS-FUNCTIONAL INFLUENCE': 0,
       'PROJECT LEADERSHIP': 0,
       'SOLUTION DESIGN': 0,
@@ -76,7 +76,7 @@ const defaultState = (): SnowflakeAppState => {
     name: 'Cersei Lannister',
     title: 'Staff Engineer',
     milestoneByTrack: {
-      'INTEGRATION EXPERTISE': 1,
+      'COMMUNICATION': 1,
       'CUSTOMER ADVOCACY': 2,
       'ACCOUNT PARTNERSHIP': 3,
       'DELIVERABLES': 2,
