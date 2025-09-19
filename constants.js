@@ -8,7 +8,7 @@ export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'MOBILE': Milestone,
+  'TEST': Milestone,
   'WEB_CLIENT': Milestone,
   'FOUNDATIONS': Milestone,
   'SERVERS': Milestone,
@@ -90,8 +90,8 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
-  "MOBILE": {
-    "displayName": "Mobile",
+  "TEST": {
+    "displayName": "test",
     "category": "A",
     "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
     "milestones": [{
