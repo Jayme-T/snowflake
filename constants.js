@@ -91,7 +91,6 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
- {
   "COMMUNICATION": {
     "displayName": "COMMUNICATION",
     "category": "A",
@@ -1248,8 +1247,8 @@ export const tracks: Tracks = {
       }
     ]
   }
-},
 }
+
 
 export const trackIds: TrackId[] = Object.keys(tracks)
 
