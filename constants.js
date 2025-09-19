@@ -1291,10 +1291,10 @@ export const categoryColorScale = d3.scaleOrdinal()
   .range(['#00abc2', '#428af6', '#e1439f', '#e54552'])
 
 export const titles = [
-  {label: 'JR CE', minPoints: 0, maxPoints: 16},
-  {label: 'CE', minPoints: 17, maxPoints: 35},
-  {label: 'SR. CE', minPoints: 36, maxPoints: 57},
-  {label: 'Principal CE', minPoints: 36, maxPoints: 57}
+  {label: 'JR CE', minPoints: 0, maxPoints: 33},
+  {label: 'CE', minPoints: 34, maxPoints: 68},
+  {label: 'SR. CE', minPoints: 69, maxPoints: 102},
+  {label: 'Principal CE', minPoints: 103, maxPoints: 135}
 ]
 
 export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {
