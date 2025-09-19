@@ -17,7 +17,6 @@ export default () => (
   `}</style>
     <h2>🎉Custom Engineering Employee Snowflake Simulator</h2>
     <p>
-      <a href="https://medium.engineering/engineering-growth-at-medium-4935b3234d25">This model was adapted from Medium engineering model Read more about here</a>.
     </p>
   </div>
 )
