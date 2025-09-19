@@ -4,19 +4,19 @@ export default () => (
     div {
       background: #fdd;
       margin: 0 auto;
-      padding: 4px 20px;
-      max-width: 800px;
-      border-radius: 4px;
-      color: #600;
+      padding: 0px 10px;
+      max-width: 1000px;
+      border-radius: 2px;
+      color: #070807;
     }
     a {
       color: blue;
       text-decoration: underline;
     }
   `}</style>
-    <h2>⚠️ Heads up: Medium isn’t using this tool anymore, but you’re welcome to!</h2>
+    <h2>🎉 What is this : Custom Engineering Employee Snowflake Simulator</h2>
     <p>
-      <a href="https://medium.engineering/engineering-growth-at-medium-4935b3234d25">Read more about our current thinking around engineer growth</a>.
+      <a href="https://medium.engineering/engineering-growth-at-medium-4935b3234d25">This model was adapted from Medium engineering model Read more about here</a>.
     </p>
   </div>
 )
