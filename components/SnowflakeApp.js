@@ -47,8 +47,7 @@ const coerceMilestone = (value: number): Milestone => {
 
 const emptyState = (): SnowflakeAppState => {
   return {
-    name: '',
-    title: '',
+    title: 'JR CE',
     milestoneByTrack: {
       'COMMUNICATION': 0,
       'CUSTOMER ADVOCACY': 0,
@@ -73,7 +72,6 @@ const emptyState = (): SnowflakeAppState => {
 
 const defaultState = (): SnowflakeAppState => {
   return {
-    name: 'Cersei Lannister',
     title: 'Staff Engineer',
     milestoneByTrack: {
       'COMMUNICATION': 1,
