@@ -241,7 +241,7 @@ export const tracks: Tracks = {
   },
   "ACCOUNT PARTNERSHIP": {
     "displayName": "ACCOUNT PARTNERSHIP",
-    "category": "B",
+    "category": "A",
     "description": "Builds and maintains strong, professional relationships with customer stakeholders to ensure project success and long-term business value.",
     "milestones": [
       {
@@ -313,7 +313,7 @@ export const tracks: Tracks = {
   },
   "DELIVERABLES": {
     "displayName": "DELIVERABLES",
-    "category": "C",
+    "category": "A",
     "description": "Creates high-quality, professional, and accurate documentation and artifacts for internal and external use, ensuring clarity and precision.",
     "milestones": [
       {
@@ -385,7 +385,7 @@ export const tracks: Tracks = {
   },
   "TROUBLESHOOTING": {
     "displayName": "TROUBLESHOOTING",
-    "category": "D",
+    "category": "B",
     "description": "Systematically identifies, diagnoses, and resolves technical issues in a timely and efficient manner.",
     "milestones": [
       {
@@ -457,7 +457,7 @@ export const tracks: Tracks = {
   },
   "INTEGRATION EXPERTISE": {
     "displayName": "INTEGRATION EXPERTISE",
-    "category": "E",
+    "category": "B",
     "description": "Demonstrates deep knowledge of platform integrations and APIs, enabling effective solution design and implementation for customers.",
     "milestones": [
       {
@@ -529,7 +529,7 @@ export const tracks: Tracks = {
   },
   "DATA ANALYTICS": {
     "displayName": "DATA ANALYTICS",
-    "category": "F",
+    "category": "B",
     "description": "Analyzes and interprets data to drive insights, measure project success, and provide value to customers.",
     "milestones": [
       {
@@ -601,7 +601,7 @@ export const tracks: Tracks = {
   },
   "PLATFORM AND PRODUCT KNOWLEDGE": {
     "displayName": "PLATFORM AND PRODUCT KNOWLEDGE",
-    "category": "G",
+    "category": "B",
     "description": "Develops a comprehensive understanding of the company's platform and products, acting as a subject matter expert for customers.",
     "milestones": [
       {
@@ -673,7 +673,7 @@ export const tracks: Tracks = {
   },
   "COLLABORATION": {
     "displayName": "COLLABORATION",
-    "category": "H",
+    "category": "C",
     "description": "Works effectively with cross-functional teams and customers to achieve a shared goal.",
     "milestones": [
       {
@@ -745,7 +745,7 @@ export const tracks: Tracks = {
   },
   "MENTORSHIP": {
     "displayName": "MENTORSHIP",
-    "category": "I",
+    "category": "C",
     "description": "Guides and supports the professional growth of colleagues, sharing knowledge and expertise to help others succeed.",
     "milestones": [
       {
@@ -817,7 +817,7 @@ export const tracks: Tracks = {
   },
   "CROSS-FUNCTIONAL INFLUENCE": {
     "displayName": "CROSS-FUNCTIONAL INFLUENCE",
-    "category": "J",
+    "category": "C",
     "description": "Drives change and alignment across different teams and departments, guiding outcomes without direct authority.",
     "milestones": [
       {
@@ -889,7 +889,7 @@ export const tracks: Tracks = {
   },
   "PROJECT LEADERSHIP": {
     "displayName": "PROJECT LEADERSHIP",
-    "category": "K",
+    "category": "C",
     "description": "Manages and guides a project from inception to completion, ensuring it is delivered on time, within scope, and on budget.",
     "milestones": [
       {
@@ -961,7 +961,7 @@ export const tracks: Tracks = {
   },
   "SOLUTION DESIGN": {
     "displayName": "SOLUTION DESIGN",
-    "category": "L",
+    "category": "D",
     "description": "Designs and documents technical solutions that meet customer needs and align with best practices.",
     "milestones": [
       {
@@ -1033,7 +1033,7 @@ export const tracks: Tracks = {
   },
   "TECHNICAL STRATEGY": {
     "displayName": "TECHNICAL STRATEGY",
-    "category": "M",
+    "category": "D",
     "description": "Develops a comprehensive technical strategy that aligns with a customer's business goals and a company's product roadmap.",
     "milestones": [
       {
@@ -1105,7 +1105,7 @@ export const tracks: Tracks = {
   },
   "SCOPING & ESTIMATION": {
     "displayName": "SCOPING & ESTIMATION",
-    "category": "N",
+    "category": "D",
     "description": "Accurately defines the scope of a project and provides realistic estimates of time and effort.",
     "milestones": [
       {
@@ -1177,7 +1177,7 @@ export const tracks: Tracks = {
   },
   "BEST PRACTICE ADVOCACY": {
     "displayName": "BEST PRACTICE ADVOCACY",
-    "category": "O",
+    "category": "D",
     "description": "Champions and promotes the adoption of professional and technical best practices, ensuring a high standard of quality across all work.",
     "milestones": [
       {
