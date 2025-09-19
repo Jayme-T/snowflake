@@ -50,10 +50,10 @@ const emptyState = (): SnowflakeAppState => {
     name: '',
     title: '',
     milestoneByTrack: {
-      'TEST': 0,
-      'WEB_CLIENT': 0,
-      'FOUNDATIONS': 0,
-      'SERVERS': 0,
+      'COMMUNICATION': 0,
+      'CUSTOMER ADVOCACY': 0,
+      'ACCOUNT PARTNERSHIP': 0,
+      'DELIVERABLES': 0,
       'PROJECT_MANAGEMENT': 0,
       'COMMUNICATION': 0,
       'CRAFT': 0,
@@ -67,7 +67,7 @@ const emptyState = (): SnowflakeAppState => {
       'RECRUITING': 0,
       'COMMUNITY': 0
     },
-    focusedTrackId: 'TEST'
+    focusedTrackId: 'COMMUNICATION'
   }
 }
 
@@ -76,10 +76,10 @@ const defaultState = (): SnowflakeAppState => {
     name: 'Cersei Lannister',
     title: 'Staff Engineer',
     milestoneByTrack: {
-      'TEST': 1,
-      'WEB_CLIENT': 2,
-      'FOUNDATIONS': 3,
-      'SERVERS': 2,
+      'COMMUNICATION': 1,
+      'CUSTOMER ADVOCACY': 2,
+      'ACCOUNT PARTNERSHIP': 3,
+      'DELIVERABLES': 2,
       'PROJECT_MANAGEMENT': 4,
       'COMMUNICATION': 1,
       'CRAFT': 1,
@@ -93,7 +93,7 @@ const defaultState = (): SnowflakeAppState => {
       'RECRUITING': 3,
       'COMMUNITY': 0
     },
-    focusedTrackId: 'TEST'
+    focusedTrackId: 'COMMUNICATION'
   }
 }
 
