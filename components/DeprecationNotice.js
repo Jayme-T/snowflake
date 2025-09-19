@@ -2,10 +2,10 @@ export default () => (
   <div>
     <style jsx>{`
     div {
-      background: #fdd;
+      background: #1c8a5f;
       margin: 0 auto;
       padding: 0px 10px;
-      max-width: 1000px;
+      max-width: 10000px;
       border-radius: 2px;
       color: #070807;
     }
