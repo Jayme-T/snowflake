@@ -91,1077 +91,1164 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
-  "TEST": {
-    "displayName": "test",
+ {
+  "COMMUNICATION": {
+    "displayName": "COMMUNICATION",
     "category": "A",
-    "description": "Develops expertise in native COMMUNICATION platform engineering, such as iOS or Android",
-    "milestones": [{
-      "summary": "Works effectively within established iOS or Android architectures, following current best practices",
-      "signals": [
-        "Delivers features requiring simple local modifications",
-        "Adds simple actions that call server endpoints",
-        "Reuses existing components appropriately",
-      ],
-      "examples": [
-        "Added existing button to a different iOS surface",
-        "Add follow button for publications on Android",
-        "Fetched and displayed a new stream, using existing stream item styles",
-      ],
-    }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
-      "signals": [
-        "Defines new useful and appropriate proto-generated objects",
-        "Creates simple new activities on Android",
-        "Migrates code from old patterns to new patterns",
-      ],
-      "examples": [
-        "Upgraded SDWebImage to a new major version",
-        "Added support for rendering a new type of stream item",
-        "Prototyped a simple new feature quickly",
-      ],
-    }, {
-      "summary": "Designs major new features and demonstrates a nuanced understanding of COMMUNICATION platform constraints",
-      "signals": [
-        "Implements complex features with a large product surface area",
-        "Works effectively with  Android reactive programming framework",
-        "Adds support for new iOS features after a major iOS version upgrade",
-      ],
-      "examples": [
-        "Designed iOS caching strategy for offline reading",
-        "Built series reader on Android",
-        "Informed the team about recent best practice changes and deprecations",
-      ],
-    }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
-      "signals": [
-        "Pioneers architecture migration strategies that reduce programmer burden",
-        "Fixes subtle memory management issues",
-        "Implements interactive dismissals that bring delight",
-      ],
-      "examples": [
-        "Upgraded CocoaPods to a new major version",
-        "Designed architecture for fetching and rendering stream items",
-        "Migrated Android persistance layer to reactive programming",
-      ],
-    }, {
-      "summary": "Is an industry-leading expert in COMMUNICATION engineering or sets strategic COMMUNICATION direction for an eng team",
-      "signals": [
-        "Defines long-term goals and ensures active projects are in service of them",
-        "Designs and builds innovative, industry-leading UI interactions",
-        "Invents new techniques to responsibly stretch limits of the Android platform",
-      ],
-      "examples": [
-        "Defined and drove complete migration plan to Swift or Kotlin",
-        "Implemented Android recycler views before platform support existed",
-        "Pioneered application-level abstractions for multi-app environment",
-      ],
-    }],
+    "description": "Articulates complex technical concepts and project updates clearly and concisely to diverse audiences, from technical teams to non-technical stakeholders.",
+    "milestones": [
+      {
+        "summary": "Communicates basic project statuses and technical findings to internal teams and primary customer contacts.",
+        "signals": [
+          "Provides clear, brief project status updates in team meetings.",
+          "Writes organized internal emails summarizing technical issues.",
+          "Asks clarifying questions to understand customer needs.",
+          "Listens attentively and takes notes during calls."
+        ],
+        "examples": [
+          "Shared a JIRA ticket update with the team.",
+          "Sent an internal email summarizing a bug identified during a sync call.",
+          "Confirmed understanding of a customer's request by restating it in a follow-up email."
+        ]
+      },
+      {
+        "summary": "Effectively communicates project progress and technical details to key customer stakeholders and manages their expectations.",
+        "signals": [
+          "Leads portions of customer calls, articulating project milestones.",
+          "Drafts concise, professional emails for external communication.",
+          "Presents technical findings and recommendations clearly to both internal and external audiences.",
+          "Manages customer expectations around timelines and scope."
+        ],
+        "examples": [
+          "Delivered a slide deck on project progress to a customer's steering committee.",
+          "Wrote a formal email to a customer's project manager outlining a solution.",
+          "Effectively navigated a difficult conversation about a project delay, explaining the reasoning calmly."
+        ]
+      },
+      {
+        "summary": "Acts as a primary point of contact, influencing customer's technical and business decisions through expert communication.",
+        "signals": [
+          "Consistently and proactively provides updates, anticipating customer needs.",
+          "Facilitates productive discussions between highly technical and non-technical parties.",
+          "Presents complex solution designs in an easy-to-understand manner.",
+          "Navigates and de-escalates tense situations with composure."
+        ],
+        "examples": [
+          "Conducted a whiteboard session to visually explain a complex integration flow.",
+          "Successfully de-escalated a customer who was upset about an issue, guiding them to a productive path forward.",
+          "Wrote a summary of a technical deep-dive for executive stakeholders."
+        ]
+      },
+      {
+        "summary": "Is a master communicator who shapes a team's communication standards and handles high-stakes conversations.",
+        "signals": [
+          "Coaches team members on communication best practices.",
+          "Creates and implements templates for external communications to ensure consistency.",
+          "Leads complex, multi-party conversations with executive-level stakeholders.",
+          "Can successfully communicate bad news in a way that maintains trust and partnership."
+        ],
+        "examples": [
+          "Developed and presented a standardized format for project update emails.",
+          "Led an emergency bridge call to communicate a critical production issue, providing clear direction and updates.",
+          "Successfully navigated a conversation about a major scope change with a customer's C-suite."
+        ]
+      },
+      {
+        "summary": "Acts as a company-wide resource on communication, establishing cross-organizational standards and fostering an expert culture of communication.",
+        "signals": [
+          "Defines and advocates for communication principles that are adopted across the organization.",
+          "Mentors junior employees on professional communication in customer-facing roles.",
+          "Is trusted to handle the most difficult, high-stakes communication challenges."
+        ],
+        "examples": [
+          "Created a new communication framework for client-facing teams.",
+          "Authored a blog post or presentation on effective communication for professional services.",
+          "Spoke at a company-wide meeting about best practices for external communication."
+        ]
+      }
+    ]
   },
-
   "CUSTOMER ADVOCACY": {
-    "displayName": "Web client",
+    "displayName": "CUSTOMER ADVOCACY",
     "category": "A",
-    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
-    "milestones": [{
-      "summary": "Works effectively within established web client architectures, following current best practices",
-      "signals": [
-        "Makes minor modifications to existing screens",
-        "Fixes simple design quality issues",
-        "Uses CSS appropriately, following style guide",
-      ],
-      "examples": [
-        "Implemented sticky footer on the post page",
-        "Hooked up the action to dismiss a post from a stream",
-        "Built PaymentHistory screen using ResponseScreen",
-      ],
-    }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
-      "signals": [
-        "Makes sensible abstractions based on template and code patterns",
-        "Specs and builds interactive components independently",
-        "Prototypes simple new features quickly",
-      ],
-      "examples": [
-        "Built credit card input component",
-        "Created shared buttons template",
-        "Built modal system",
-      ],
-    }, {
-      "summary": "Designs major new features and demonstrates a nuanced understanding of browser constraints",
-      "signals": [
-        "Provides useful design feedback and suggests feasible alternatives",
-        "Performs systemic tasks to significantly minimise bundle size",
-        "Acts a caretaker for all of web client code",
-      ],
-      "examples": [
-        "Designed font loading strategy for Medium",
-        "Researched utility of service workers for Medium",
-        "Designed and implemented ResponseScreen",
-      ],
-    }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
-      "signals": [
-        "Pioneers architecture migrations that reduce programmer burden",
-        "Implements complex UI transitions that bring delight",
-        "Makes architectural decisions that eliminate entire classes of bugs",
-      ],
-      "examples": [
-        "Designed Medium's post morpher and delta system",
-        "Implemented Medium's scrolling text over image blur",
-        "Designed and pioneered proto-based model storage",
-      ],
-    }, {
-      "summary": "Is an industry-leading expert in web client or sets strategic web client direction for an eng team",
-      "signals": [
-        "Invents new techniques to innovate and overcome browser constraints",
-        "Identifies and solved systemic problems with current architecture",
-        "Defines a long-term vision for web client and ensures projects are in service of it",
-      ],
-      "examples": [
-        "Invented CSS in JS",
-        "Defined and drove migration strategy to Lite",
-        "Implemented unidirectional data flow to completion",
-      ],
-    }],
+    "description": "Champions the customer's needs and business objectives within the organization, ensuring their voice is heard and their best interests are represented.",
+    "milestones": [
+      {
+        "summary": "Represents the customer's stated needs and provides feedback to internal teams.",
+        "signals": [
+          "Clearly documents and relays customer requirements and feedback.",
+          "Articulates why a specific feature is important to the customer.",
+          "Identifies and escalates customer pain points to the appropriate internal team."
+        ],
+        "examples": [
+          "Shared a customer's specific use case for a feature request with the product team.",
+          "Flagged a support ticket as a high priority based on a customer's business impact.",
+          "In a team meeting, spoke up about a customer's concern regarding a recent bug."
+        ]
+      },
+      {
+        "summary": "Proactively identifies customer's unstated needs and acts as their champion within the company.",
+        "signals": [
+          "Identifies underlying business problems based on customer requests.",
+          "Presents the customer's perspective in internal discussions, influencing a decision.",
+          "Goes above and beyond to find a solution to a customer problem, even if it's outside the standard process."
+        ],
+        "examples": [
+          "Proposed a feature to the product team after noticing a recurring customer need.",
+          "Secured a developer's time for a critical bug fix by articulating its impact on the customer's business.",
+          "Found a workaround for a customer's issue when a direct fix was not immediately available."
+        ]
+      },
+      {
+        "summary": "Develops deep relationships with customers, becoming their trusted advisor and internal advocate.",
+        "signals": [
+          "Acts as the first point of contact for customer escalations.",
+          "Leads internal meetings to align teams on a customer's strategic goals.",
+          "Successfully negotiates trade-offs that benefit both the customer and the company."
+        ],
+        "examples": [
+          "Organized a cross-functional meeting to discuss a customer's long-term business strategy.",
+          "Successfully negotiated a scope change that aligned with a customer's business goals and our technical capabilities.",
+          "Received positive feedback from a customer about being a trusted partner."
+        ]
+      },
+      {
+        "summary": "Is a company-wide advocate for the customer, influencing product and strategic roadmaps based on customer feedback.",
+        "signals": [
+          "Identifies common pain points across multiple customers and advocates for a systemic solution.",
+          "Shares detailed customer stories with senior leadership to inform decision-making.",
+          "Acts as a formal mentor or informal coach on customer advocacy for others."
+        ],
+        "examples": [
+          "Led a presentation on customer feedback to the executive team.",
+          "Authored a document outlining a new product feature based on data from customer support tickets.",
+          "Influenced the roadmap of a major product by highlighting a key customer need."
+        ]
+      },
+      {
+        "summary": "Sets the standard for customer advocacy within the organization, fostering a culture of prioritizing customer needs.",
+        "signals": [
+          "Defines a new process for gathering and acting on customer feedback.",
+          "Is the go-to person for high-stakes customer relationships.",
+          "Designs and leads training sessions on customer empathy and advocacy."
+        ],
+        "examples": [
+          "Created a new process for quarterly business reviews with strategic customers.",
+          "Successfully re-engaged a customer who was on the verge of churn.",
+          "Developed a toolkit for junior team members to help them advocate for their customers."
+        ]
+      }
+    ]
   },
-
   "ACCOUNT PARTNERSHIP": {
     "displayName": "ACCOUNT PARTNERSHIP",
-    "category": "A",
-    "description": "Develops expertise in foundational systems, such as deployments, pipelines, databases and machine learning",
-    "milestones": [{
-      "summary": "Works effectively within established structures, following current best practices",
-      "signals": [
-        "Writes thorough postmortems for service outages",
-        "Makes simple configuration changes to services",
-        "Performs backfills safely and effectively, without causing pages",
-      ],
-      "examples": [
-        "Made safe and effective Ansible changes",
-        "Implemented new ETL pipelines based on existing ones",
-        "Resolved out of disk errors independently",
-      ],
-    }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
-      "signals": [
-        "Made minor version upgrades to technologies",
-        "Builds machine learning jobs within the ML framework",
-        "Triages service issues correctly and independently",
-      ],
-      "examples": [
-        "Upgraded NodeJS from 8.0 to 8.1.1",
-        "Built custom packages for RPMs",
-        "Improved ETL efficiency by improving Dynamo to S3 loading",
-      ],
-    }, {
-      "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
-      "signals": [
-        "Acts as primary maintainer for existing critical systems",
-        "Designs moderately complex systems",
-        "Makes major version upgrades to libraries",
-      ],
-      "examples": [
-        "Designed Ansible configuration management",
-        "Built Medium's realtime stats pipeline",
-        "Designed flexible framework for writing machine learning jobs",
-      ],
-    }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
-      "signals": [
-        "Designs complex projects that encompass multiple systems and technologies",
-        "Demonstrates deep knowledge of foundational systems",
-        "Introduces new databases and technologies to meet underserved needs",
-      ],
-      "examples": [
-        "Designed and built BBFD",
-        "Designed AWS configuration management",
-        "Introduced Kinesis and pioneered streaming events pipeline",
-      ],
-    }, {
-      "summary": "Is an industry-leading expert in foundational engineering or sets strategic foundational direction for an eng team",
-      "signals": [
-        "Designs transformational projects in service of long-term goals",
-        "Defines the strategic vision for foundational work and supporting technologies",
-        "Invents industry-leading techniques to solve complex problems",
-      ],
-      "examples": [
-        "Invented a novel ML technique that advanced the state of the art",
-        "Defined and developed Medium's continuous delivery strategy",
-        "Developed and implemented HA strategy",
-      ],
-    }],
+    "category": "B",
+    "description": "Builds and maintains strong, professional relationships with customer stakeholders to ensure project success and long-term business value.",
+    "milestones": [
+      {
+        "summary": "Builds trust and rapport with day-to-day customer contacts.",
+        "signals": [
+          "Responds to customer inquiries promptly and professionally.",
+          "Consistently delivers on small commitments.",
+          "Learns and uses customer's names, roles, and internal structure."
+        ],
+        "examples": [
+          "Sent a professional introduction email to a new team member on the customer side.",
+          "Proactively checked in with a customer's project manager to see if they needed help.",
+          "Followed up on a request from a customer within the agreed-upon timeframe."
+        ]
+      },
+      {
+        "summary": "Develops a deep understanding of the customer's business and builds relationships with key stakeholders beyond day-to-day contacts.",
+        "signals": [
+          "Can speak confidently about the customer's business goals and challenges.",
+          "Identifies new opportunities for partnership or expansion within the account.",
+          "Proactively provides insights that are relevant to the customer's business."
+        ],
+        "examples": [
+          "Shared a blog post or article with a customer that was relevant to their industry.",
+          "Identified an opportunity to introduce a new product line to a customer based on their business needs.",
+          "Pushed to get a formal introduction to a key technical stakeholder on the customer side."
+        ]
+      },
+      {
+        "summary": "Is a trusted partner to the customer's leadership, influencing their strategy and identifying long-term growth opportunities.",
+        "signals": [
+          "Serves as a formal or informal mentor to team members on the customer side.",
+          "Successfully navigates challenging conversations about business value, budget, or contract renewal.",
+          "Identifies and nurtures relationships with new stakeholders as a customer's team evolves."
+        ],
+        "examples": [
+          "Presented a proposal for a new phase of a project that tied directly to the customer's strategic goals.",
+          "Successfully renewed a contract by demonstrating the business value of our partnership.",
+          "Acted as a resource for the customer's team on a technical challenge that was not in scope."
+        ]
+      },
+      {
+        "summary": "Develops a strategic partnership with the customer's executive leadership, helping them achieve their long-term business goals.",
+        "signals": [
+          "Acts as a strategic thought partner for the customer, anticipating their needs.",
+          "Negotiates and closes complex deals by highlighting long-term value.",
+          "Is a public champion of the customer's success within the industry."
+        ],
+        "examples": [
+          "Co-authored a case study with the customer to be presented at an industry conference.",
+          "Successfully sold a complex, multi-year deal by demonstrating how our solution would drive significant revenue growth.",
+          "Became a trusted advisor to the customer's CTO, providing insights that helped them meet their goals."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in building strategic partnerships, establishing best practices that are adopted across the organization.",
+        "signals": [
+          "Defines and advocates for a new approach to account management.",
+          "Is a sought-after resource for a sales team on how to manage key accounts.",
+          "Successfully negotiates and closes a high-stakes, multi-million dollar deal."
+        ],
+        "examples": [
+          "Developed a new process for identifying and prioritizing high-value accounts.",
+          "Led a training session for the entire professional services team on how to build a strategic partnership.",
+          "Successfully closed a deal with a top-tier client, setting a new standard for a company."
+        ]
+      }
+    ]
   },
-
   "DELIVERABLES": {
     "displayName": "DELIVERABLES",
-    "category": "A",
-    "description": "Develops expertise in server side engineering, using technologies such as Go, NodeJS, or Scala",
-    "milestones": [{
-      "summary": "Works effectively within established server side frameworks, following current best practices",
-      "signals": [
-        "Adds NodeJS endpoints using layers architecture",
-        "Adds golang endpoints using Gotham architecture",
-        "Makes minor server changes to support client needs",
-      ],
-      "examples": [
-        "Added IFTTT trigger for new bookmark to medium2",
-        "Added delete audio route to Buggle",
-        "Queried a Dynamo LSI appropriately",
-      ],
-    }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
-      "signals": [
-        "Assesses correctness and utility of existing code and avoids blind copy-pasting",
-        "Generalizes code when appropriate",
-        "Determines data needs from product requirements",
-      ],
-      "examples": [
-        "Identified need for new index on Dynamo",
-        "Acted as caretaker for routes protos",
-        "Updated Facebook API version and codebase dependencies",
-      ],
-    }, {
-      "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
-      "signals": [
-        "Acts as primary maintainer for existing critical systems",
-        "Integrates third party services effectively",
-        "Writes playbooks for new service maintenance",
-      ],
-      "examples": [
-        "Implemented Google Auth login to Medium",
-        "Implemented payments integration with Stripe",
-        "Built Textshots server",
-      ],
-    }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
-      "signals": [
-        "Delivers complex systems that achieve their goals",
-        "Avoids subtle architectural mistakes when considering new systems",
-        "Makes appropriate buy vs build choices",
-      ],
-      "examples": [
-        "Designed Medium's ranked feed architecture",
-        "Designed custom domains architecture",
-        "Created Gotham framework for creating Go services",
-      ],
-    }, {
-      "summary": "Is an industry-leading expert in server side engineering or sets strategic server side direction for an eng team",
-      "signals": [
-        "Designs transformational projects of significant complexity and scope",
-        "Makes decisions that have positive, long term, wide ranging consequences",
-        "Identifies and solves systemic problems with current architecture",
-      ],
-      "examples": [
-        "Researched, vetted, and selected Go as Medium's statically typed language",
-        "Defined microservices architecture and medium2 migration plan",
-        "Defined and implemented proprietary IP core to the company's success",
-      ],
-    }],
-  },
-
-  "PROJECT_MANAGEMENT": {
-    "displayName": "Project management",
-    "category": "B",
-    "description": "Delivers well-scoped programs of work that meet their goals, on time, to budget, harmoniously",
-    "milestones": [{
-      "summary": "Effectively delivers individual tasks",
-      "signals": [
-        "Estimates small tasks accurately",
-        "Delivers tightly-scoped projects efficiently",
-        "Writes effective technical specs outlining approach",
-      ],
-      "examples": [
-        "Wrote the technical spec for featured post images",
-        "Delivered stream item support for email digests",
-        "Delivered payment history dashboard",
-      ],
-    }, {
-      "summary": "Effectively delivers small personal projects",
-      "signals": [
-        "Performs research and considers alternative approaches",
-        "Balances pragmatism and polish appropriately",
-        "Defines and hits interim milestones",
-      ],
-      "examples": [
-        "Delivered promo editor",
-        "Delivered audio uploading for web client",
-        "Executed the recommends to claps backfill",
-      ],
-    }, {
-      "summary": "Effectively delivers projects through a small team",
-      "signals": [
-        "Delegates tasks to others appropriately",
-        "Integrates business needs into project planning",
-        "Chooses appropriate project management strategy based on context",
-      ],
-      "examples": [
-        "Ran project retro to assess improvement opportunities",
-        "Completed launch checklist unprompted for well controlled rollout",
-        "Facilitated project kickoff meeting to get buy-in",
-      ],
-    }, {
-      "summary": "Effectively delivers projects through a large team, or with a significant amount of stakeholders or complexity",
-      "signals": [
-        "Finds ways to deliver requested scope faster, and prioritizes backlog",
-        "Manages dependencies on other projects and teams",
-        "Leverages recognition of repeated project patterns",
-      ],
-      "examples": [
-        "Oversaw technical delivery of Hightower",
-        "Managed infrastructure migration to VPC",
-        "Involved marketing, legal, and appropriate functions at project start",
-      ],
-    }, {
-      "summary": "Manages major company pushes delivered by multiple teams",
-      "signals": [
-        "Considers external constraints and business objectives when planning",
-        "Leads teams of teams, and coordinates effective cross-functional collaboration",
-        "Owns a key company metric",
-      ],
-      "examples": [
-        "Managed technical migration to SOA",
-        "Lead technical delivery of 10/7",
-        "Delivered multi-month engineering project on time",
-      ],
-    }],
-  },
-
-  "COMMUNICATION": {
-    "displayName": "Communication",
-    "category": "B",
-    "description": "Shares the right amount of information with the right people, at the right time, and listens effectively",
-    "milestones": [{
-      "summary": "Communicates effectively to close stakeholders when called upon, and incorporates constructive feedback",
-      "signals": [
-        "Communicates project status clearly and effectively",
-        "Collaborates with others with empathy",
-        "Asks for help at the appropriate juncture",
-      ],
-      "examples": [
-        "Updated The Watch before running a backfill",
-        "Updated project status changes in Asana promptly",
-        "Gave thoughtful check-in and check-out comments",
-      ],
-    }, {
-      "summary": "Communicates with the wider team appropriately, focusing on timeliness and good quality conversations",
-      "signals": [
-        "Practises active listening and suspension of attention",
-        "Ensures stakeholders are aware of current blockers",
-        "Chooses the appropriate tools for accurate and timely communication",
-      ],
-      "examples": [
-        "Received and integrated critical feedback positively",
-        "Created cross-team Slack channel for payments work",
-        "Spoke to domain experts before writing spec",
-      ],
-    }, {
-      "summary": "Proactively shares information, actively solicits feedback, and facilitates communication for multiple stakeholders",
-      "signals": [
-        "Resolves communication difficulties between others",
-        "Anticipates and shares schedule deviations in plenty of time",
-        "Manages project stakeholder expectations effectively",
-      ],
-      "examples": [
-        "Directed team response effectively during outages",
-        "Gave a substantial Eng All Hands presentation on React",
-        "Gave notice of upcoming related work in Eng Briefing",
-      ],
-    }, {
-      "summary": "Communicates complex ideas skillfully and with nuance, and establishes alignment within the wider organization",
-      "signals": [
-        "Communicates project risk and tradeoffs skillfully and with nuance",
-        "Contextualizes and clarifies ambiguous direction and strategy for others",
-        "Negotiates resourcing compromises with other teams",
-      ],
-      "examples": [
-        "Lead off-site workshop on interviewing",
-        "Wrote Medium's growth framework and rationale",
-        "Aligned the entire organization around claps",
-      ],
-    }, {
-      "summary": "Influences outcomes at the highest level, moves beyond mere broadcasting, and sets best practices for others",
-      "signals": [
-        "Defines processes for clear communication for the entire team",
-        "Shares the right amount of information with the right people, at the right time",
-        "Develops and delivers plans to execs, the board, and outside investors",
-      ],
-      "examples": [
-        "Organized half year check-in company offsite",
-        "Created the communication plan for a large organizational change",
-        "Presented to the board about key company metrics and projects",
-      ],
-    }],
-  },
-
-  "CRAFT": {
-    "displayName": "Craft",
-    "category": "B",
-    "description": "Embodies and promotes practices to ensure excellent quality products and services",
-    "milestones": [{
-      "summary": "Delivers consistently good quality work",
-      "signals": [
-        "Tests new code thoroughly, both locally, and in production once shipped",
-        "Writes tests for every new feature and bug fix",
-        "Writes clear comments and documentation",
-      ],
-      "examples": [
-        "Caught a bug on Hatch before it went live",
-        "Landed non-trivial PR with no caretaker comments",
-        "Wrote hermetic tests for the happy and sad cases",
-      ],
-    }, {
-      "summary": "Increases the robustness and reliability of codebases, and devotes time to polishing products and systems",
-      "signals": [
-        "Refactors existing code to make it more testable",
-        "Adds tests for uncovered areas",
-        "Deletes unnecessary code and deprecates proactively when safe to do so",
-      ],
-      "examples": [
-        "Requested tests for a PR when acting as reviewer",
-        "Reduced the number of zelda fitzgerald exceptions",
-        "Fixed a TODO for someone else in the codebase",
-      ],
-    }, {
-      "summary": "Improves others' ability to deliver great quality work",
-      "signals": [
-        "Implements systems that enable better testing",
-        "Gives thoughtful code reviews as a domain expert",
-        "Adds tooling to improve code quality",
-      ],
-      "examples": [
-        "Improved PRB to run the same volume of tests faster",
-        "Simplified hermetic test data modification",
-        "Created fixture system for visual quality",
-      ],
-    }, {
-      "summary": "Advocates for and models great quality with proactive actions, and tackles difficult and subtle system issues",
-      "signals": [
-        "Builds systems so as to eliminate entire classes of programmer error",
-        "Focuses the team on quality with regular reminders",
-        "Coordinates Watch priorities and projects",
-      ],
-      "examples": [
-        "Added code coverage reporting to iOS CI pipeline",
-        "Iterated repeatedly to develop Medium's underlines solution",
-        "Defined and oversaw plan for closing Heartbleed vulnerability",
-      ],
-    }, {
-      "summary": "Enables and encourages the entire organization to make quality a central part of the development process",
-      "signals": [
-        "Defines policies for the engineering org that encourage quality work",
-        "Identifies and eliminates single points of failure throughout the organization",
-        "Secures time and resources from execs to support great quality",
-      ],
-      "examples": [
-        "Negotiated resources for Fix-It week with exec team",
-        "Instituted and ensured success of a 20% time policy",
-        "Started The Watch",
-      ],
-    }],
-  },
-
-  "INITIATIVE": {
-    "displayName": "Initiative",
-    "category": "B",
-    "description": "Challenges the status quo and effects positive organizational change outside of mandated work",
-    "milestones": [{
-      "summary": "Identifies opportunities for organizational change or product improvements",
-      "signals": [
-        "Writes Hatch posts about improvement opportunities",
-        "Raises meaningful tensions in tactical meetings",
-        "Asks leadership team probing questions at FAM",
-      ],
-      "examples": [
-        "Wrote about problems with TTR on Hatch",
-        "Wrote about content policy problems on Hatch",
-        "Reported a site issue in Github",
-      ],
-    }, {
-      "summary": "Causes change to positively impact a few individuals or minor improvement to an existing product or service",
-      "signals": [
-        "Picks bugs off the backlog proactively when blocked elsewhere",
-        "Makes design quality improvements unprompted",
-        "Takes on trust and safety tasks proactively when blocked elsewhere",
-      ],
-      "examples": [
-        "Advocated on own behalf for a change in role",
-        "Implemented flow typing for promises",
-        "Audited web client performance in Chrome and proposed fixes",
-      ],
-    }, {
-      "summary": "Causes change to positively impact an entire team or instigates a minor feature or service",
-      "signals": [
-        "Demonstrates concepts proactively with prototypes",
-        "Fixes complicated bugs outside of regular domain",
-        "Takes ownership of systems that nobody owns or wants",
-      ],
-      "examples": [
-        "Defined style guide to resolve style arguments",
-        "Proposed and implemented at-mentions prototype",
-        "Implemented video for Android independently, unprompted",
-      ],
-    }, {
-      "summary": "Effects change that has a substantial positive impact on the engineering organization or a major product impact",
-      "signals": [
-        "Champions and pioneers new technologies to solve new classes of problem",
-        "Exemplifies grit and determination in the face of persistent obstacles",
-        "Instigates major new features, services, or architectures",
-      ],
-      "examples": [
-        "Created the interviewing rubric and booklet",
-        "Implemented and secured support for native login",
-        "Migrated medium2 to mono repo and bazel",
-      ],
-    }, {
-      "summary": "Effects change that has a substantial positive impact on the whole company",
-      "signals": [
-        "Creates a new function to solve systemic issues",
-        "Galvanizes the entire company and garners buy in for a new strategy",
-        "Changes complex organizational processes",
-      ],
-      "examples": [
-        "Migrated the organization from Holacracy",
-        "Built Medium Android prototype and convinced execs to fund it",
-        "Convinced leadership and engineering org to move to Medium Lite architecture",
-      ],
-    }],
-  },
-
-  "CAREER_DEVELOPMENT": {
-    "displayName": "Career development",
     "category": "C",
-    "description": "Provides strategic support to engineers to help them build the career they want",
-    "milestones": [{
-      "summary": "Gives insight into opportunities and helps identify individuals' strengths and weaknesses",
-      "signals": [
-        "Advocates on behalf and in defense of a group member",
-        "Shares opportunities for improvements and recognises achievements",
-        "Explains appropriate available industry paths",
-      ],
-      "examples": [
-        "Collected and delivered feedback",
-        "Discussed career options and areas of interest informally",
-        "Hosted a Floodgate Academy intern",
-      ],
-    }, {
-      "summary": "Formally supports and advocates for one person and provides tools to help them solve career problems",
-      "signals": [
-        "Ensure a group member has an appropriate role on their team",
-        "Offers effective career advice to group members, without being prescriptive",
-        "Creates space for people to talk through challenges",
-      ],
-      "examples": [
-        "Set up and attended regular, constructive 1:1s",
-        "Provided coaching on how to have difficult conversations",
-        "Taught group members the GROW model",
-      ],
-    }, {
-      "summary": "Inspires and retains a small group of people and actively pushes them to stretch themselves",
-      "signals": [
-        "Discusses paths, and creates plans for personal and professional growth",
-        "Advocates to align people with appropriate roles within organization",
-        "Works with team leads to elevate emerging leaders",
-      ],
-      "examples": [
-        "Reviewed individual group member progression every 6 weeks",
-        "Suggested appropriate group member for Tech Lead position",
-        "Arranged a requested switch of discipline for a group member",
-      ],
-    }, {
-      "summary": "Manages interactions and processes between groups, promoting best practices and setting a positive example",
-      "signals": [
-        "Manages team transitions smoothly, respecting team and individual needs",
-        "Develops best practices for conflict resolution",
-        "Ensures all group members' roles are meeting their career needs",
-      ],
-      "examples": [
-        "Completed training on situational leadership",
-        "Built a resourcing plan based on company, team, and individual goals",
-        "Prevented regretted attrition with intentional, targeted intervention",
-      ],
-    }, {
-      "summary": "Supports the development of a signficant part of the engineering org, and widely viewed as a trusted advisor",
-      "signals": [
-        "Supports and develops senior leaders",
-        "Identified leadership training opportunities for senior leadership",
-        "Pushes everyone to be as good as they can be, with empathy",
-      ],
-      "examples": [
-        "Provided coaching to group leads",
-        "Devised Pathwise curriculum for group leads",
-        "Advocated to execs for engineer development resources and programs",
-      ],
-    }],
+    "description": "Creates high-quality, professional, and accurate documentation and artifacts for internal and external use, ensuring clarity and precision.",
+    "milestones": [
+      {
+        "summary": "Produces basic, accurate documentation and project artifacts for internal use.",
+        "signals": [
+          "Maintains accurate meeting notes and shares them with the team.",
+          "Creates clear JIRA tickets with all necessary information.",
+          "Contributes to internal wikis and knowledge bases."
+        ],
+        "examples": [
+          "Wrote detailed notes from a customer call that included action items.",
+          "Created a JIRA ticket with a clear description and all necessary screenshots.",
+          "Updated an internal wiki page with information about a new feature."
+        ]
+      },
+      {
+        "summary": "Creates professional, client-facing documentation and artifacts that are accurate and well-organized.",
+        "signals": [
+          "Produces well-written, professional project plans or status reports.",
+          "Creates clear and concise email updates for customers.",
+          "Documents technical solutions in a way that is easy for customers to understand."
+        ],
+        "examples": [
+          "Wrote a polished project plan for a new implementation.",
+          "Created a comprehensive status report that included progress, risks, and action items.",
+          "Documented a technical solution in a clear way for a customer's developer team."
+        ]
+      },
+      {
+        "summary": "Develops a high standard for client-facing documentation and project artifacts, ensuring they are accurate, well-designed, and easy to use.",
+        "signals": [
+          "Creates comprehensive, well-structured guides or playbooks for customers.",
+          "Produces templates and standards for the team to use for documentation.",
+          "Successfully anticipates customer questions and includes the answers in the documentation."
+        ],
+        "examples": [
+          "Authored a comprehensive technical guide for a customer's developer team.",
+          "Created a new template for project plans that the whole team can use.",
+          "Developed a visual diagram that simplified a complex technical flow for a customer."
+        ]
+      },
+      {
+        "summary": "Is an expert in creating high-quality deliverables, setting a new bar for the team and company.",
+        "signals": [
+          "Creates and implements a new standard for documentation that is adopted company-wide.",
+          "Successfully creates and delivers a high-stakes, client-facing presentation.",
+          "Receives positive feedback from customers specifically about the quality of the documentation."
+        ],
+        "examples": [
+          "Developed a new standard for SOW (Statement of Work) documents that is adopted across the company.",
+          "Created and delivered a presentation that led to a new contract.",
+          "Authored a series of documents that were published on the company's website as a resource for customers."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in the creation of high-quality deliverables, defining and leading a culture of professional documentation.",
+        "signals": [
+          "Is a sought-after resource for other teams on how to create high-quality deliverables.",
+          "Designs and leads training sessions on professional documentation.",
+          "Is asked to review and approve all high-stakes deliverables for the company."
+        ],
+        "examples": [
+          "Created a new process for reviewing and approving all client-facing deliverables.",
+          "Led a training session for the professional services team on how to create compelling presentations.",
+          "Authored a blog post on best practices for professional documentation."
+        ]
+      }
+    ]
   },
-
-  "ORG_DESIGN": {
-    "displayName": "Org design",
-    "category": "C",
-    "description": "Defines processes and structures that enables the strong growth and execution of a diverse eng organization",
-    "milestones": [{
-      "summary": "Respects and participates in processes, giving meaningful feedback to help the organization improve",
-      "signals": [
-        "Reflects on meetings that leave them inspired or frustrated",
-        "Teaches others about existing processes",
-        "Actively participates and makes contributions within organizational processes",
-      ],
-      "examples": [
-        "Facilitated effective tactical meeting with empathy",
-        "Explained tactical meeting format to a new hire",
-        "Provided feedback on sprint planning meeting",
-      ],
-    }, {
-      "summary": "Identifies opportunities to improve existing processes and makes changes that positively affect the local team",
-      "signals": [
-        "Defines meeting structure and cadence that meets team needs",
-        "Engages in organizational systems thinking",
-        "Advocates for improved diversity and inclusion, and proposes ideas to help",
-      ],
-      "examples": [
-        "Defined Frankenmeeting structure for small team",
-        "Improved Watch on-call rotation scheduling",
-        "Defined standard channels for inter-team communication",
-      ],
-    }, {
-      "summary": "Develops processes to solve ongoing organizational problems",
-      "signals": [
-        "Creates programs that meaningfully improve organizational diversity",
-        "Solves long-standing organizational problems",
-        "Reallocates resources to meet organizational needs",
-      ],
-      "examples": [
-        "Developed baseline team templates for consistency",
-        "Created bug-rotation program to address ongoing quality issues",
-        "Defined Guilds manifesto and charter",
-      ],
-    }, {
-      "summary": "Thinks deeply about organizational issues and identifies hidden dynamics that contribute to them",
-      "signals": [
-        "Evaluates incentive structures and their effect on execution",
-        "Analyzes existing processes for bias and shortfall",
-        "Ties abstract concerns to concrete organizational actions or norms",
-      ],
-      "examples": [
-        "Connected COMMUNICATION recruiting difficulties to focus on excellence",
-        "Raised leadership level change discrepancies",
-        "Analyzed the hiring rubric for false negative potential",
-      ],
-    }, {
-      "summary": "Leads initiatives to address issues stemming from hidden dynamics and company norms",
-      "signals": [
-        "Builds programs to train leadership in desired skills",
-        "Creates new structures that provide unique growth opportunities",
-        "Leads planning and communication for reorgs",
-      ],
-      "examples": [
-        "Lead efforts to increase number of COMMUNICATION engineers",
-        "Directed resources to meaningfully improve diversity at all levels",
-        "Built the growth framework rubric",
-      ],
-    }],
+  "TROUBLESHOOTING": {
+    "displayName": "TROUBLESHOOTING",
+    "category": "D",
+    "description": "Systematically identifies, diagnoses, and resolves technical issues in a timely and efficient manner.",
+    "milestones": [
+      {
+        "summary": "Follows a defined process to troubleshoot and resolve common technical issues.",
+        "signals": [
+          "Uses clear steps to reproduce a reported issue.",
+          "Leverages internal tools and documentation to find answers.",
+          "Asks for help when they are stuck on a problem."
+        ],
+        "examples": [
+          "Followed a runbook to troubleshoot a failed API call.",
+          "Used internal logging tools to identify the cause of a bug.",
+          "Escalated a complex issue to an engineering team with all the necessary information."
+        ]
+      },
+      {
+        "summary": "Diagnoses and solves complex technical issues with minimal guidance, documenting the solution for future use.",
+        "signals": [
+          "Can isolate the root cause of an issue in a complex system.",
+          "Develops novel solutions to a new problem.",
+          "Documents the steps to solve a problem so others can do it in the future."
+        ],
+        "examples": [
+          "Used network logs to identify a subtle bug in an integration.",
+          "Figured out a workaround for a customer's issue when a direct fix was not possible.",
+          "Created a new troubleshooting guide for a recurring issue."
+        ]
+      },
+      {
+        "summary": "Anticipates and proactively prevents technical issues, setting a new standard for proactive problem-solving.",
+        "signals": [
+          "Identifies potential issues before they become a problem.",
+          "Develops new tools or processes to prevent future issues.",
+          "Mentors others on how to troubleshoot and solve problems."
+        ],
+        "examples": [
+          "Identified a potential performance issue and proactively addressed it before it affected a customer.",
+          "Wrote a script to automate a common troubleshooting task.",
+          "Led a brown bag session on how to use a new debugging tool."
+        ]
+      },
+      {
+        "summary": "Is a go-to expert for high-stakes technical issues, solving the most complex problems with composure.",
+        "signals": [
+          "Can diagnose and solve a critical production issue under pressure.",
+          "Is a sought-after resource for other teams when they are stuck on a difficult problem.",
+          "Successfully manages communication and expectations during a production incident."
+        ],
+        "examples": [
+          "Led an emergency bridge call to diagnose and fix a major outage.",
+          "Provided a detailed post-mortem analysis of a critical incident.",
+          "Successfully managed a customer's expectations during a major outage, providing clear updates and a path to resolution."
+        ]
+      },
+      {
+        "summary": "Sets the standard for troubleshooting excellence, defining a new approach to problem-solving and incident management.",
+        "signals": [
+          "Creates and implements a new process for incident management that is adopted company-wide.",
+          "Designs and leads training sessions on advanced troubleshooting techniques.",
+          "Is a public champion of a new approach to problem-solving."
+        ],
+        "examples": [
+          "Created a new runbook for handling major incidents.",
+          "Led a training session for the entire professional services team on how to use a new debugging tool.",
+          "Authored a blog post on best practices for incident management."
+        ]
+      }
+    ]
   },
-
-  "WELLBEING": {
-    "displayName": "Wellbeing",
-    "category": "C",
-    "description": "Supports the emotional well-being of group members in difficult times, and celebrates their successes",
-    "milestones": [{
-      "summary": "Uses tools and processes to help ensure colleagues are healthy and happy",
-      "signals": [
-        "Keeps confidences unless legally or morally obliged to do otherwise",
-        "Applies the reasonable person principle to others",
-        "Avoids blame and focuses on positive change",
-      ],
-      "examples": [
-        "Ensured group members were taking enough vacation",
-        "Put themself in another's shoes to understand their perspective",
-        "Checked in with colleague showing signs of burnout",
-      ],
-    }, {
-      "summary": "Creates a positive, supportive, engaging team environment for group members",
-      "signals": [
-        "Sheds light on other experiences to build empathy and compassion",
-        "Validates ongoing work and sustains motivation",
-        "Proposes solutions when teams get bogged down or lose momentum",
-      ],
-      "examples": [
-        "Coordinated a small celebration for a project launch",
-        "Connected tedious A|B testing project with overall company goals",
-        "Noted a team without a recent win and suggested some easy quick wins",
-      ],
-    }, {
-      "summary": "Manages expectations across peers, leads in the org, promotes calm, and prevents consensus building",
-      "signals": [
-        "Trains group members to separate stimulus from response",
-        "Maintains a pulse on individual and team morale",
-        "Helps group members approach problems with curiosity",
-      ],
-      "examples": [
-        "Completed training on transference and counter transference",
-        "Completed training on compromise and negotiation techniques",
-        "Reframed a problem as a challenge, instead of a barrier, when appropriate",
-      ],
-    }, {
-      "summary": "Advocates for the needs of teams and group members, and proactively works to calm the organization",
-      "signals": [
-        "Ensures team environments are safe and inclusive, proactively",
-        "Grounds group member anxieties in reality",
-        "Tracks team retention actively and proposes solutions to strengthen it",
-      ],
-      "examples": [
-        "Relieved org tension around product direction by providing extra context",
-        "Encouraged group members to focus on what they can control",
-        "Guided people through complex organizational change",
-      ],
-    }, {
-      "summary": "Manages narratives, channels negativity into inspiration and motivation, and protects the entire team",
-      "signals": [
-        "Recognizes and points out narratives when appropriate",
-        "Works to reshape narratives from victimization to ownership",
-        "Increases the psychological safety of the entire team",
-      ],
-      "examples": [
-        "Converted group member from a problem haver to a problem solver",
-        "Challenged false narrative and redirected to compassion and empathy",
-        "Cultivated and championed a culture of empathy within the entire team",
-      ],
-    }],
+  "INTEGRATION EXPERTISE": {
+    "displayName": "INTEGRATION EXPERTISE",
+    "category": "E",
+    "description": "Demonstrates deep knowledge of platform integrations and APIs, enabling effective solution design and implementation for customers.",
+    "milestones": [
+      {
+        "summary": "Understands and applies a basic knowledge of APIs and integration points.",
+        "signals": [
+          "Can use an API client to send simple requests.",
+          "Understands the basics of API documentation.",
+          "Can explain how two systems are connected at a high level."
+        ],
+        "examples": [
+          "Used Postman to send a test API request to a customer's endpoint.",
+          "Read and understood an API's documentation to find a specific endpoint.",
+          "Explained how our platform connects to a customer's ERP system."
+        ]
+      },
+      {
+        "summary": "Designs and implements moderately complex integrations, troubleshooting issues and providing guidance to customers.",
+        "signals": [
+          "Can design and document a complete integration flow.",
+          "Troubleshoots integration issues with minimal guidance.",
+          "Provides clear, professional guidance to a customer's developer team."
+        ],
+        "examples": [
+          "Created a flow diagram of a new integration between our platform and a customer's CRM.",
+          "Used logging tools to find the root cause of a failed API call.",
+          "Provided a detailed response to a customer's developer team with a solution to a bug."
+        ]
+      },
+      {
+        "summary": "Is a go-to expert for complex integrations, solving the most difficult problems and providing strategic guidance.",
+        "signals": [
+          "Successfully designs and implements a complex, multi-system integration.",
+          "Can troubleshoot and resolve issues in a high-stakes production environment.",
+          "Acts as a strategic partner to a customer's technical leadership, providing guidance on their long-term integration strategy."
+        ],
+        "examples": [
+          "Designed a complex integration between our platform and a customer's legacy system.",
+          "Successfully led an emergency bridge call to fix a production integration issue.",
+          "Provided a long-term strategy for a customer to migrate from one integration to another."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in integration expertise, setting new standards for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new integration partners.",
+          "Creates new tools or processes to improve the team's ability to implement integrations.",
+          "Acts as a formal mentor or informal coach on integration best practices for others."
+        ],
+        "examples": [
+          "Wrote a new guide for integrating with a popular e-commerce platform.",
+          "Developed a new process for reviewing and approving all integration designs.",
+          "Authored a blog post on best practices for designing and implementing APIs."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in integration and APIs, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new API.",
+          "Is a sought-after resource for a sales team on how to pitch complex integrations.",
+          "Presents at industry conferences on integration best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable API.",
+          "Successfully pitched a complex integration to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for designing and implementing APIs."
+        ]
+      }
+    ]
   },
-
-  "ACCOMPLISHMENT": {
-    "displayName": "Accomplishment",
-    "category": "C",
-    "description": "Inspires day to day excellence, maximises potential and effectively resolves performance issues with compassion",
-    "milestones": [{
-      "summary": "Helps individuals identify blockers and helps them identify next steps for resolution",
-      "signals": [
-        "Notices when someone is stuck and reaches out",
-        "Helps others break down problems into feasible, tangible next steps",
-        "Talks through problems non-judgmentally",
-      ],
-      "examples": [
-        "Completed training on diagnosing problems",
-        "Unblocked a group member",
-        "Reinforces and affirms positive feedback for good work",
-      ],
-    }, {
-      "summary": "Helps individuals resolve difficult performance issues, with insight, compassion, and skill",
-      "signals": [
-        "Gathers context outside the immediate problem",
-        "Recognizes issues within local environment and suggests change",
-        "Works to encourage ownership of actions and responsibilities",
-      ],
-      "examples": [
-        "Completed training on decision making",
-        "Convinced a group member to solve a problem directly, rather than doing it for them",
-        "Gave honest feedback about poor performance, with compassion",
-      ],
-    }, {
-      "summary": "Intervenes in long-standing performance issues with targeted behavior change or performance plans",
-      "signals": [
-        "Aggregates signals of poor performance and creates process for improvement",
-        "Investigates motivation and externalities for consistent poor performance",
-        "Puts together comprehensive, achievable performance plans",
-      ],
-      "examples": [
-        "Worked with group member to address persistent communication failures",
-        "Arranged a transfer to another team, resulting in improved performance",
-        "Managed group member closely to maximise chances of PIP success",
-      ],
-    }, {
-      "summary": "Mediates escalated situations, empowers underperforming teams, and resolves conflict",
-      "signals": [
-        "Recognizes heightened situations and toxic or aggressive interactions",
-        "Inserts themself into conflict where appropriate to calm and mediate",
-        "Encourages open dialog and builds trust between parties in conflict",
-      ],
-      "examples": [
-        "Empowered a team to drive forward amidst uncertainty",
-        "Protected team from externalities so they could focus on goals",
-        "Mediated sit-down between team members to address tension",
-      ],
-    }, {
-      "summary": "Resolves complex organizational dysfunction, or persistent conflict at senior levels",
-      "signals": [
-        "Takes control of dysfunctional teams to organise chaos",
-        "Repairs broken team dynamics and builds harmony",
-        "Presides over a well-oiled team of teams",
-      ],
-      "examples": [
-        "Turned around the performance of a problematic team",
-        "De-escalated serious tensions between teams",
-        "Rebuilt trust between senior team leads",
-      ],
-    }],
+  "DATA ANALYTICS": {
+    "displayName": "DATA ANALYTICS",
+    "category": "F",
+    "description": "Analyzes and interprets data to drive insights, measure project success, and provide value to customers.",
+    "milestones": [
+      {
+        "summary": "Applies a basic understanding of data to support project success.",
+        "signals": [
+          "Can pull and analyze data from internal systems with guidance.",
+          "Can create a basic report to track a project's progress.",
+          "Understands and explains the meaning of key metrics."
+        ],
+        "examples": [
+          "Used a SQL query to pull data for a project report.",
+          "Created a basic dashboard to track a project's key metrics.",
+          "Explained the meaning of a key performance indicator (KPI) to a customer."
+        ]
+      },
+      {
+        "summary": "Leverages data to proactively identify trends and insights, using them to inform decisions.",
+        "signals": [
+          "Can independently analyze data to find trends and insights.",
+          "Creates and presents a clear, data-driven report to a customer.",
+          "Uses data to anticipate and proactively address a problem."
+        ],
+        "examples": [
+          "Used data to identify a trend in customer behavior that could impact a project.",
+          "Created a report for a customer that used data to highlight a key business opportunity.",
+          "Used data to proactively identify a potential issue with a new feature."
+        ]
+      },
+      {
+        "summary": "Acts as a strategic advisor, using data to help customers achieve their business goals.",
+        "signals": [
+          "Can tell a compelling story with data that influences a customer's business strategy.",
+          "Designs and implements complex data analysis to solve a customer's business problem.",
+          "Mentors others on how to use data to drive insights."
+        ],
+        "examples": [
+          "Created a data-driven presentation that helped a customer achieve their business goals.",
+          "Used data to help a customer understand the impact of a recent campaign.",
+          "Led a brown bag session on how to use a new data visualization tool."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in data analytics, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new data analysis tools or processes.",
+          "Creates a new standard for data analysis that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to use data to drive insights."
+        ],
+        "examples": [
+          "Authored a new guide for data analysis that is adopted across the company.",
+          "Led a project to implement a new data visualization tool.",
+          "Provided a detailed data-driven analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in data analytics, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new data platform.",
+          "Is a sought-after resource for a sales team on how to pitch data-driven solutions.",
+          "Presents at industry conferences on data analytics best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable data platform.",
+          "Successfully pitched a data-driven solution to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for data analytics."
+        ]
+      }
+    ]
   },
-
+  "PLATFORM AND PRODUCT KNOWLEDGE": {
+    "displayName": "PLATFORM AND PRODUCT KNOWLEDGE",
+    "category": "G",
+    "description": "Develops a comprehensive understanding of the company's platform and products, acting as a subject matter expert for customers.",
+    "milestones": [
+      {
+        "summary": "Understands and articulates the basic features and functions of the platform and products.",
+        "signals": [
+          "Can explain what the product does and how it helps customers.",
+          "Can answer basic questions about the platform without needing to look up the answer.",
+          "Knows where to find information about a new feature."
+        ],
+        "examples": [
+          "Provided a basic overview of the product to a new customer.",
+          "Answered a customer's question about a specific feature without needing to consult documentation.",
+          "Found and shared a new feature's documentation with a customer."
+        ]
+      },
+      {
+        "summary": "Demonstrates a deep understanding of the platform and products, providing detailed guidance to customers.",
+        "signals": [
+          "Can explain the technical architecture of the platform.",
+          "Can articulate the benefits of a new feature to a customer.",
+          "Provides detailed guidance on how to use a complex feature."
+        ],
+        "examples": [
+          "Led a technical deep dive on the platform's architecture for a customer's developer team.",
+          "Successfully articulated the business value of a new feature to a customer.",
+          "Created a step-by-step guide on how to use a complex feature."
+        ]
+      },
+      {
+        "summary": "Is a go-to expert on the platform and products, solving the most difficult problems and providing strategic guidance.",
+        "signals": [
+          "Can troubleshoot and resolve issues that require a deep understanding of the platform's architecture.",
+          "Acts as a strategic partner to a customer's technical leadership, providing guidance on their long-term product strategy.",
+          "Mentors others on how to develop a deep understanding of the platform and products."
+        ],
+        "examples": [
+          "Successfully diagnosed and fixed a complex bug that required a deep understanding of the platform.",
+          "Provided a long-term product strategy for a customer to migrate from one product to another.",
+          "Led a brown bag session on how to use a new product."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in platform and product knowledge, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new product features based on customer feedback.",
+          "Creates new tools or processes to improve the team's ability to learn about the platform and products.",
+          "Is a sought-after resource for other teams on how to use the platform and products."
+        ],
+        "examples": [
+          "Authored a new guide for a new product that is adopted across the company.",
+          "Led a project to implement a new knowledge base.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in the platform and products, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new product.",
+          "Is a sought-after resource for a sales team on how to pitch complex product solutions.",
+          "Presents at industry conferences on product best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable product.",
+          "Successfully pitched a complex product solution to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for product design."
+        ]
+      }
+    ]
+  },
+  "COLLABORATION": {
+    "displayName": "COLLABORATION",
+    "category": "H",
+    "description": "Works effectively with cross-functional teams and customers to achieve a shared goal.",
+    "milestones": [
+      {
+        "summary": "Works effectively within a team, contributing to a shared goal.",
+        "signals": [
+          "Shares information and ideas with the team.",
+          "Asks for help when they are stuck on a problem.",
+          "Contributes to team meetings and discussions."
+        ],
+        "examples": [
+          "Shared a new idea with the team in a meeting.",
+          "Asked for help from a team member to solve a problem.",
+          "Contributed to a team meeting by providing a project update."
+        ]
+      },
+      {
+        "summary": "Works effectively with a cross-functional team, contributing to a shared goal.",
+        "signals": [
+          "Can work effectively with different teams, such as engineering, product, and sales.",
+          "Can articulate a customer's needs to a cross-functional team.",
+          "Contributes to a cross-functional meeting by providing a project update."
+        ],
+        "examples": [
+          "Worked with the engineering team to prioritize a bug fix.",
+          "Shared a customer's specific use case for a feature request with the product team.",
+          "Provided a project update to a cross-functional team in a meeting."
+        ]
+      },
+      {
+        "summary": "Is a go-to resource for cross-functional collaboration, solving the most difficult problems and providing strategic guidance.",
+        "signals": [
+          "Successfully leads a complex, multi-team project.",
+          "Can mediate and resolve conflicts between different teams.",
+          "Acts as a strategic partner to different teams, providing guidance on how to work together effectively."
+        ],
+        "examples": [
+          "Led a project that required a collaboration between multiple teams.",
+          "Successfully mediated a conflict between the engineering and product teams.",
+          "Provided a long-term strategy for a customer to migrate from one product to another."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in collaboration, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new collaboration tools or processes.",
+          "Creates a new standard for collaboration that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to work together effectively."
+        ],
+        "examples": [
+          "Authored a new guide for collaboration that is adopted across the company.",
+          "Led a project to implement a new collaboration tool.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in collaboration, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new collaboration tool.",
+          "Is a sought-after resource for a sales team on how to pitch collaborative solutions.",
+          "Presents at industry conferences on collaboration best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable collaboration tool.",
+          "Successfully pitched a complex collaborative solution to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for collaboration."
+        ]
+      }
+    ]
+  },
   "MENTORSHIP": {
-    "displayName": "Mentorship",
-    "category": "D",
-    "description": "Provides support to colleagues, spreads knowledge, and develops the team outside formal reporting structures",
-    "milestones": [{
-      "summary": "Informally mentors individuals in an ad-hoc way, supports new hires, and conveys institutional knowledge",
-      "signals": [
-        "Makes themself available for informal support and advice",
-        "Acts as sounding board for peers and more junior members",
-        "Provides sound advice when asked",
-      ],
-      "examples": [
-        "Acted as an onboarding buddy",
-        "Paired with an engineer to help them with an unfamiliar area",
-        "Helped a colleague understand their feelings",
-      ],
-    }, {
-      "summary": "Mentors people proactively, and guides people to realizations rather than providing the answer",
-      "signals": [
-        "Takes time to explain concepts and best practices",
-        "Asks questions to illuminate concepts, rather than stating them",
-        "Allows others to lead efforts when it will help their development",
-      ],
-      "examples": [
-        "Shared interesting article with a team member to help with their growth",
-        "Offered unprompted feedback to help growth, with empathy",
-        "Lead from behind to support someone new to a leadership role",
-      ],
-    }, {
-      "summary": "Teaches small groups of engineers and contributes to Medium's shared knowledge base",
-      "signals": [
-        "Avoids siloing information when it can be usefully shared with others",
-        "Works to increase the bus factor of systems",
-        "Finds tools that work best for a team member's personality",
-      ],
-      "examples": [
-        "Gave a brown bag presentation on payments",
-        "Wrote Hatch post on avoiding RDS backfill issues",
-        "Wrote Medium-U content module",
-      ],
-    }, {
-      "summary": "Encourages people to mentor each other, and creates ways for them to do so",
-      "signals": [
-        "Defines an entire curriculum for a discipline",
-        "Draws positive attention to well-modeled mentor and teaching behaviours",
-        "Creates brown bag series and lines up speakers",
-      ],
-      "examples": [
-        "Created and lead Medium's Women in Eng group",
-        "Organized an Eng All Hands with an outside speaker",
-        "Designed and taught web client guild curriculum",
-      ],
-    }, {
-      "summary": "Instills and promotes a culture of learning and development within the team",
-      "signals": [
-        "Sets incentive structures to recognise and reward mentorship",
-        "Empowers team members to develop themselves",
-        "Role models productive and healthy mentor relationships",
-      ],
-      "examples": [
-        "Instituted the professional education budget for engineers",
-        "Mentored mentors",
-        "Started the eng advisor program and lined up external mentors",
-      ],
-    }],
+    "displayName": "MENTORSHIP",
+    "category": "I",
+    "description": "Guides and supports the professional growth of colleagues, sharing knowledge and expertise to help others succeed.",
+    "milestones": [
+      {
+        "summary": "Shares knowledge and expertise with colleagues, providing support and guidance.",
+        "signals": [
+          "Answers a colleague's questions about a new feature or process.",
+          "Shares a new idea or a best practice with the team.",
+          "Provides constructive feedback to a colleague on their work."
+        ],
+        "examples": [
+          "Explained how to use a new tool to a colleague.",
+          "Shared a new best practice for a customer integration with the team.",
+          "Provided constructive feedback to a colleague on a project plan."
+        ]
+      },
+      {
+        "summary": "Acts as an informal mentor to colleagues, guiding their professional growth and development.",
+        "signals": [
+          "Can identify a colleague's strengths and weaknesses and provide guidance on how to improve.",
+          "Provides a colleague with a challenging project to help them grow their skills.",
+          "Provides a colleague with a clear path to success."
+        ],
+        "examples": [
+          "Helped a colleague identify their career goals and provided a plan to achieve them.",
+          "Provided a colleague with a challenging project that helped them grow their skills.",
+          "Provided a colleague with a clear path to success."
+        ]
+      },
+      {
+        "summary": "Is a formal mentor, guiding the professional growth and development of a junior employee.",
+        "signals": [
+          "Can successfully guide a junior employee through a complex project.",
+          "Provides a junior employee with a clear path to success.",
+          "Provides a junior employee with a clear understanding of the company's culture and values."
+        ],
+        "examples": [
+          "Successfully guided a junior employee through their first customer integration.",
+          "Provided a junior employee with a clear path to success.",
+          "Provided a junior employee with a clear understanding of the company's culture and values."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in mentorship, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new mentorship programs or processes.",
+          "Creates a new standard for mentorship that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to mentor their employees."
+        ],
+        "examples": [
+          "Authored a new guide for mentorship that is adopted across the company.",
+          "Led a project to implement a new mentorship program.",
+          "Provided a detailed analysis to the executive team that informed a new mentorship strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in mentorship, influencing the company's long-term talent strategy.",
+        "signals": [
+          "Leads the design and implementation of a new mentorship program.",
+          "Is a sought-after resource for a sales team on how to pitch mentorship programs.",
+          "Presents at industry conferences on mentorship best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable mentorship program.",
+          "Successfully pitched a mentorship program to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for mentorship."
+        ]
+      }
+    ]
   },
-
-  "EVANGELISM": {
-    "displayName": "Evangelism",
-    "category": "D",
-    "description": "Promotes Medium to the outside world and establishes it as an attractive and thoughtful place to work",
-    "milestones": [{
-      "summary": "Represents Medium well externally, and influences individuals positively",
-      "signals": [
-        "Shares personal and organizational successes with their network",
-        "Attends Medium-hosted events and talks with guests",
-        "Communicates genuine and honest excitement about their work externally",
-      ],
-      "examples": [
-        "Shared a Medium product launch post on Facebook",
-        "Acted as a guide for a non-friend visitor to the office",
-        "Supported PR efforts by giving a quote or having a photo taken",
-      ],
-    }, {
-      "summary": "Participates more centrally in small events, and takes simple actions that positively influence groups of people",
-      "signals": [
-        "Takes meaningful action to introduce people to Medium",
-        "Joined public Slack group and represented Medium appropriately, and well",
-        "Organizes positive small- or medium-sized events that bring people to Medium",
-      ],
-      "examples": [
-        "Volunteered as a helper for CODE2040 writing workshop",
-        "Organized a short tour of the office by college students",
-        "Talked at a Women Who Code event hosted at Medium",
-      ],
-    }, {
-      "summary": "Works hard to positively influence large groups of people on their views of Medium",
-      "signals": [
-        "Mentors or participates in a high visibility way in an external organization",
-        "Builds fruitful partnerships with external organizations",
-        "Writes blog posts about Medium that receive moderate traffic",
-      ],
-      "examples": [
-        "Represented Medium on a panel at a conference of industry experts",
-        "Established close ties with Creative Commons",
-        "Built a durable, long-standing relationship with Code2040",
-      ],
-    }, {
-      "summary": "Establishes Medium as an great, innovative company and workplace to the whole industry",
-      "signals": [
-        "Establishes themself as an industry thought leader who attracts talent",
-        "Publishes material about Medium's organizational or technical innovations",
-        "Leverages significant following to evangelise Medium",
-      ],
-      "examples": [
-        "Published a paper on Medium technology in a peer-reviewed journal",
-        "Authored joint-press release with EFF on DNT",
-        "Published “Why Content Editable Is Terrible” on the Medium engineering blog",
-      ],
-    }, {
-      "summary": "Introduces Medium in a positive light to a wider audience outside the industry",
-      "signals": [
-        "Delivers key messages to broad, mainstream audiences",
-        "Influences people with large audiences to talk about Medium positively",
-        "Drives recognition and adoption of Medium in significant numbers",
-      ],
-      "examples": [
-        "Published or interviewed in a mainstream newspaper or website outside tech",
-        "Keynoted a conference with international attention",
-        "Represented Medium in national televised media",
-      ],
-    }],
+  "CROSS-FUNCTIONAL INFLUENCE": {
+    "displayName": "CROSS-FUNCTIONAL INFLUENCE",
+    "category": "J",
+    "description": "Drives change and alignment across different teams and departments, guiding outcomes without direct authority.",
+    "milestones": [
+      {
+        "summary": "Contributes to cross-functional discussions and provides relevant information.",
+        "signals": [
+          "Shares relevant insights from a customer call with the product or engineering team.",
+          "Asks clarifying questions to understand the goals of other teams.",
+          "Successfully hands off a task to another team with all the necessary context."
+        ],
+        "examples": [
+          "Shared a customer's specific use case with the product team.",
+          "Asked the engineering team for a clear timeline on a bug fix.",
+          "Handoff a task to another team with all the necessary context."
+        ]
+      },
+      {
+        "summary": "Influences decisions and drives alignment in cross-functional settings.",
+        "signals": [
+          "Successfully advocates for a customer's needs in an internal meeting, leading to a change in priority.",
+          "Proposes a new solution that requires collaboration between multiple teams.",
+          "Can articulate the business impact of a technical issue to a non-technical audience."
+        ],
+        "examples": [
+          "Successfully advocated for a customer's needs in an internal meeting, leading to a change in priority.",
+          "Proposed a new solution that required a collaboration between the engineering and product teams.",
+          "Articulated the business impact of a technical issue to a non-technical audience."
+        ]
+      },
+      {
+        "summary": "Is a trusted partner to other teams, influencing their roadmaps and strategic goals.",
+        "signals": [
+          "Is a go-to resource for other teams when they need to understand a customer's needs.",
+          "Successfully influences the roadmap of another team, leading to a more positive outcome for the customer.",
+          "Can mediate and resolve conflicts between different teams."
+        ],
+        "examples": [
+          "Successfully influenced the roadmap of the product team, leading to a new feature that helped a customer.",
+          "Mediated a conflict between the engineering and product teams.",
+          "Provided a long-term strategy for a customer to migrate from one product to another."
+        ]
+      },
+      {
+        "summary": "Drives alignment across the company, influencing a company's strategic roadmap.",
+        "signals": [
+          "Successfully leads a complex, multi-team project.",
+          "Can successfully mediate and resolve conflicts between different teams.",
+          "Acts as a strategic partner to different teams, providing guidance on how to work together effectively."
+        ],
+        "examples": [
+          "Led a project that required a collaboration between multiple teams.",
+          "Successfully mediated a conflict between the engineering and product teams.",
+          "Provided a long-term strategy for a customer to migrate from one product to another."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in cross-functional influence, establishing a new standard for collaboration.",
+        "signals": [
+          "Creates and implements a new process for cross-functional collaboration that is adopted company-wide.",
+          "Designs and leads training sessions on how to influence other teams.",
+          "Is asked to review and approve all high-stakes deliverables for the company."
+        ],
+        "examples": [
+          "Authored a new guide for cross-functional collaboration that is adopted across the company.",
+          "Led a training session for the professional services team on how to influence other teams.",
+          "Successfully negotiated and closed a high-stakes, multi-million dollar deal."
+        ]
+      }
+    ]
   },
-
-  "RECRUITING": {
-    "displayName": "Recruiting",
-    "category": "D",
-    "description": "Strengthens Medium's team by bringing in excellent staff members",
-    "milestones": [{
-      "summary": "Brings new candidates into the pipeline and understands how to evaluate candidates at Medium",
-      "signals": [
-        "Reviews existing network for hiring leads regularly",
-        "Shadows interviews to gain familiarity with process",
-        "Reviews current job postings regularly",
-      ],
-      "examples": [
-        "Completed interview calibration",
-        "Set up casual sessions to practice asking questions",
-        "Referred appropriate individuals for open positions",
-      ],
-    }, {
-      "summary": "Interviews regularly, helps the team make meaningful hiring decisions, and helps build a diverse pipeline",
-      "signals": [
-        "Uses interview rubric to provide clear, objective feedback on candidates",
-        "Interviews candidates with empathy and treats them all with equal respect",
-        "Researches approaches for sourcing candidates and diversifying hiring",
-      ],
-      "examples": [
-        "Added observable evidence for every rating",
-        "Started a monthly brunch for candidates to meet Medium employees",
-        "Tested a new service for quality and diversity of candidates",
-      ],
-    }, {
-      "summary": "Maintains and strengthens the integrity of the current process, and regularly brings in great candidates",
-      "signals": [
-        "Teaches new interviewers how to interview with empathy",
-        "Models great interview technique and feedback when shadowed",
-        "Reverse shadows trainees and helps calibrate their feedback",
-      ],
-      "examples": [
-        "Wrote new interview question which meets our question quality criteria",
-        "Brought candidates into our pipeline proactively, with a high conversion rate",
-        "Proposed useful, tangible improvements to the interview process",
-      ],
-    }, {
-      "summary": "Actively contributes to and leads hiring decisions, and goes to great lengths to source great candidates",
-      "signals": [
-        "Documents subtle cues in interviews that indicate values alignment",
-        "Makes hiring decisions, resolving discrepancies between conflicting reports",
-        "Top-grades candidates and teases out character traits",
-      ],
-      "examples": [
-        "Planned engineering summit on interview process and training",
-        "Organized and lead Medium's presence at a recruitment fair",
-        "Started CODE2040 internship program",
-      ],
-    }, {
-      "summary": "Sets recruitment strategy, invests in long-term relationships for critical roles, and recruits at scale",
-      "signals": [
-        "Sets the tone, policy and goals around building a diverse, high-quality team",
-        "Identifies and brings in promising acquisitions",
-        "Tracks industry activity, identifying opportunities for critical roles",
-      ],
-      "examples": [
-        "Talked with a senior candidate over many months to fill a critical role",
-        "Organized efforts around convincing acquired engineers to join and stay",
-        "Set goals, then tracked and reported metrics on team demographics over time",
-      ],
-    }],
+  "PROJECT LEADERSHIP": {
+    "displayName": "PROJECT LEADERSHIP",
+    "category": "K",
+    "description": "Manages and guides a project from inception to completion, ensuring it is delivered on time, within scope, and on budget.",
+    "milestones": [
+      {
+        "summary": "Manages a small, low-risk project from start to finish.",
+        "signals": [
+          "Creates and maintains a project plan.",
+          "Communicates project status to the team and customer.",
+          "Identifies and flags risks and issues."
+        ],
+        "examples": [
+          "Created a project plan for a small implementation.",
+          "Provided a project update to a customer in a meeting.",
+          "Identified a potential risk and flagged it to the team."
+        ]
+      },
+      {
+        "summary": "Manages a moderate-risk project, anticipating and mitigating risks and issues.",
+        "signals": [
+          "Successfully manages a project with multiple dependencies.",
+          "Proactively identifies and mitigates risks.",
+          "Provides clear, professional project updates to customers."
+        ],
+        "examples": [
+          "Successfully managed a project that required collaboration between multiple teams.",
+          "Proactively identified and mitigated a risk that could have delayed the project.",
+          "Provided a clear, professional project update to a customer that included progress, risks, and action items."
+        ]
+      },
+      {
+        "summary": "Manages a high-stakes, high-risk project, delivering it successfully with minimal guidance.",
+        "signals": [
+          "Successfully manages a project with a high degree of complexity.",
+          "Anticipates and proactively mitigates risks and issues.",
+          "Successfully navigates challenging conversations about scope, budget, and timeline."
+        ],
+        "examples": [
+          "Successfully managed a project that required a collaboration between multiple teams.",
+          "Anticipated and proactively mitigated a risk that could have delayed the project.",
+          "Successfully navigated a challenging conversation about scope, budget, and timeline."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in project leadership, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new project management tools or processes.",
+          "Creates a new standard for project management that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to manage their projects."
+        ],
+        "examples": [
+          "Authored a new guide for project management that is adopted across the company.",
+          "Led a project to implement a new project management tool.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in project leadership, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new project management tool.",
+          "Is a sought-after resource for a sales team on how to pitch project management solutions.",
+          "Presents at industry conferences on project management best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable project management tool.",
+          "Successfully pitched a complex project management solution to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for project management."
+        ]
+      }
+    ]
   },
-
-  "COMMUNITY": {
-    "displayName": "Community",
-    "category": "D",
-    "description": "Builds community internally, gives of themself to the team, and champions and extols company values",
-    "milestones": [{
-      "summary": "Is available and present on current teams, and works to contribute positively to company culture",
-      "signals": [
-        "Participates in team activities and offsites",
-        "Treats colleagues and clients with respect",
-        "Joins groups or committees outside regular duties",
-      ],
-      "examples": [
-        "Joined and actively participated in the web client guild",
-        "Brought a small gift back from vacation for the team",
-        "Wrote entertaining and informative Prod Ops writeups on Hatch",
-      ],
-    }, {
-      "summary": "Steps up, builds connectedness, and takes concrete actions to promote an inclusive culture",
-      "signals": [
-        "Makes space for others to participate",
-        "Collaborates with other engineers outside direct responsibilities",
-        "Finds ways to ramp up and engage new hires quickly",
-      ],
-      "examples": [
-        "Created onboarding bingo",
-        "Brought shy and introverted people into a dominant conversation",
-        "Volunteered as secretary for a team",
-      ],
-    }, {
-      "summary": "Contributes to improving team relatedness, and helps build a culture of lending support",
-      "signals": [
-        "Takes on additional Watch shifts at short notice",
-        "Pitches in to help other teams hit deadlines, without missing own deadlines",
-        "Uses position to raise difficult issues on someone's behalf",
-      ],
-      "examples": [
-        "Lead Watch cycles with little support while still contributing to projects",
-        "Started and drove the LGBTQIA ERG",
-        "Stayed positive and improved team morale during period after layoffs",
-      ],
-    }, {
-      "summary": "Exemplifies selflessness for the team without compromising responsibilities, and lifts everyone up",
-      "signals": [
-        "Goes above and beyond on the Watch, serving the team without complaint",
-        "Implements concrete programs to signficantly improve team inclusivity",
-        "Takes on large amounts of tedious grunt work for the team without being asked",
-      ],
-      "examples": [
-        "Devoted large amount of time to helping outside direct responsibilities",
-        "Refactored hundreds of legacy Shepherd nodes",
-        "Acted as sole maintainer of Boxen for years",
-      ],
-    }, {
-      "summary": "Lives the company values, guards positive culture, and defines policies that support relatedness between teams",
-      "signals": [
-        "Brings separate teams together to build relatedness",
-        "Holds individuals, teams, and leadership accountable to Medium's values",
-        "Sets the tone, policy, and goals around maintaining an inclusive company",
-      ],
-      "examples": [
-        "Organized wine and olive tasting offsite to Napa for the whole engineering org",
-        "Devised, delivered and acted on findings from an engineer happiness survey",
-        "Challenged and corrected exclusionary behaviour or policies",
-      ],
-    }],
+  "SOLUTION DESIGN": {
+    "displayName": "SOLUTION DESIGN",
+    "category": "L",
+    "description": "Designs and documents technical solutions that meet customer needs and align with best practices.",
+    "milestones": [
+      {
+        "summary": "Understands and documents a basic solution that meets customer needs.",
+        "signals": [
+          "Can create a basic flow diagram of a solution.",
+          "Can explain a solution to a customer in a clear way.",
+          "Understands the basics of API documentation."
+        ],
+        "examples": [
+          "Created a basic flow diagram of a solution for a customer.",
+          "Explained a solution to a customer in a clear way.",
+          "Understood the basics of API documentation to find a specific endpoint."
+        ]
+      },
+      {
+        "summary": "Designs a moderately complex solution that meets customer needs and aligns with best practices.",
+        "signals": [
+          "Can design and document a complete solution flow.",
+          "Can troubleshoot and resolve issues in a new solution.",
+          "Provides clear, professional guidance to a customer's developer team."
+        ],
+        "examples": [
+          "Created a flow diagram of a new solution for a customer.",
+          "Used logging tools to find the root cause of an issue in a new solution.",
+          "Provided a detailed response to a customer's developer team with a solution to a bug."
+        ]
+      },
+      {
+        "summary": "Is a go-to expert for complex solution design, solving the most difficult problems and providing strategic guidance.",
+        "signals": [
+          "Successfully designs and implements a complex, multi-system solution.",
+          "Can troubleshoot and resolve issues in a high-stakes production environment.",
+          "Acts as a strategic partner to a customer's technical leadership, providing guidance on their long-term solution strategy."
+        ],
+        "examples": [
+          "Designed a complex solution between our platform and a customer's legacy system.",
+          "Successfully led an emergency bridge call to fix a production solution issue.",
+          "Provided a long-term strategy for a customer to migrate from one solution to another."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in solution design, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new solution design tools or processes.",
+          "Creates a new standard for solution design that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to design their solutions."
+        ],
+        "examples": [
+          "Authored a new guide for solution design that is adopted across the company.",
+          "Led a project to implement a new solution design tool.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in solution design, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new solution.",
+          "Is a sought-after resource for a sales team on how to pitch complex solutions.",
+          "Presents at industry conferences on solution design best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable solution.",
+          "Successfully pitched a complex solution to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for solution design."
+        ]
+      }
+    ]
   },
+  "TECHNICAL STRATEGY": {
+    "displayName": "TECHNICAL STRATEGY",
+    "category": "M",
+    "description": "Develops a comprehensive technical strategy that aligns with a customer's business goals and a company's product roadmap.",
+    "milestones": [
+      {
+        "summary": "Understands and articulates a basic technical strategy that aligns with a customer's business goals.",
+        "signals": [
+          "Can explain a basic technical strategy to a customer in a clear way.",
+          "Can identify a customer's business goals and align a technical strategy to them.",
+          "Understands the basics of API documentation."
+        ],
+        "examples": [
+          "Created a basic technical strategy for a customer that aligned with their business goals.",
+          "Explained a technical strategy to a customer in a clear way.",
+          "Understood the basics of API documentation to find a specific endpoint."
+        ]
+      },
+      {
+        "summary": "Designs a moderately complex technical strategy that aligns with a customer's business goals and a company's product roadmap.",
+        "signals": [
+          "Can design and document a complete technical strategy.",
+          "Can troubleshoot and resolve issues in a new technical strategy.",
+          "Provides clear, professional guidance to a customer's developer team."
+        ],
+        "examples": [
+          "Created a flow diagram of a new technical strategy for a customer.",
+          "Used logging tools to find the root cause of an issue in a new technical strategy.",
+          "Provided a detailed response to a customer's developer team with a solution to a bug."
+        ]
+      },
+      {
+        "summary": "Is a go-to expert for complex technical strategy, solving the most difficult problems and providing strategic guidance.",
+        "signals": [
+          "Successfully designs and implements a complex, multi-system technical strategy.",
+          "Can troubleshoot and resolve issues in a high-stakes production environment.",
+          "Acts as a strategic partner to a customer's technical leadership, providing guidance on their long-term technical strategy."
+        ],
+        "examples": [
+          "Designed a complex technical strategy between our platform and a customer's legacy system.",
+          "Successfully led an emergency bridge call to fix a production technical strategy issue.",
+          "Provided a long-term strategy for a customer to migrate from one technical strategy to another."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in technical strategy, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new technical strategy tools or processes.",
+          "Creates a new standard for technical strategy that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to design their technical strategies."
+        ],
+        "examples": [
+          "Authored a new guide for technical strategy that is adopted across the company.",
+          "Led a project to implement a new technical strategy tool.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in technical strategy, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new technical strategy.",
+          "Is a sought-after resource for a sales team on how to pitch complex technical strategies.",
+          "Presents at industry conferences on technical strategy best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable technical strategy.",
+          "Successfully pitched a complex technical strategy to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for technical strategy."
+        ]
+      }
+    ]
+  },
+  "SCOPING & ESTIMATION": {
+    "displayName": "SCOPING & ESTIMATION",
+    "category": "N",
+    "description": "Accurately defines the scope of a project and provides realistic estimates of time and effort.",
+    "milestones": [
+      {
+        "summary": "Understands and provides a basic scope and estimation for a small, low-risk project.",
+        "signals": [
+          "Can create a basic scope document.",
+          "Provides a realistic estimate for a small project.",
+          "Identifies and flags potential scope creep."
+        ],
+        "examples": [
+          "Created a basic scope document for a small implementation.",
+          "Provided a realistic estimate for a small project.",
+          "Identified and flagged a potential scope creep."
+        ]
+      },
+      {
+        "summary": "Provides accurate scope and estimation for a moderately complex project.",
+        "signals": [
+          "Successfully manages a project with multiple dependencies.",
+          "Proactively identifies and mitigates risks.",
+          "Provides clear, professional project updates to customers."
+        ],
+        "examples": [
+          "Successfully managed a project that required collaboration between multiple teams.",
+          "Proactively identified and mitigated a risk that could have delayed the project.",
+          "Provided a clear, professional project update to a customer that included progress, risks, and action items."
+        ]
+      },
+      {
+        "summary": "Provides accurate scope and estimation for a high-stakes, high-risk project, delivering it successfully with minimal guidance.",
+        "signals": [
+          "Successfully manages a project with a high degree of complexity.",
+          "Anticipates and proactively mitigates risks and issues.",
+          "Successfully navigates challenging conversations about scope, budget, and timeline."
+        ],
+        "examples": [
+          "Successfully managed a project that required a collaboration between multiple teams.",
+          "Anticipated and proactively mitigated a risk that could have delayed the project.",
+          "Successfully navigated a challenging conversation about scope, budget, and timeline."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in scoping and estimation, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new scoping and estimation tools or processes.",
+          "Creates a new standard for scoping and estimation that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to scope and estimate their projects."
+        ],
+        "examples": [
+          "Authored a new guide for scoping and estimation that is adopted across the company.",
+          "Led a project to implement a new scoping and estimation tool.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in scoping and estimation, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new scoping and estimation tool.",
+          "Is a sought-after resource for a sales team on how to pitch complex scoping and estimation solutions.",
+          "Presents at industry conferences on scoping and estimation best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable scoping and estimation tool.",
+          "Successfully pitched a complex scoping and estimation solution to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices for scoping and estimation."
+        ]
+      }
+    ]
+  },
+  "BEST PRACTICE ADVOCACY": {
+    "displayName": "BEST PRACTICE ADVOCACY",
+    "category": "O",
+    "description": "Champions and promotes the adoption of professional and technical best practices, ensuring a high standard of quality across all work.",
+    "milestones": [
+      {
+        "summary": "Understands and applies a basic knowledge of best practices in their day-to-day work.",
+        "signals": [
+          "Follows a defined process for a project.",
+          "Uses a standard tool or template for a task.",
+          "Understands the importance of a best practice."
+        ],
+        "examples": [
+          "Followed a runbook to troubleshoot a failed API call.",
+          "Used a standard project plan template for a new implementation.",
+          "Understood the importance of documenting a solution for future use."
+        ]
+      },
+      {
+        "summary": "Identifies and advocates for the adoption of best practices in their work and the work of their team.",
+        "signals": [
+          "Can identify a potential issue and propose a best practice to address it.",
+          "Creates and presents a clear, data-driven report to a customer.",
+          "Uses data to anticipate and proactively address a problem."
+        ],
+        "examples": [
+          "Identified a potential issue with a new feature and proposed a best practice to address it.",
+          "Created a report for a customer that used data to highlight a key business opportunity.",
+          "Used data to proactively identify a potential issue with a new feature."
+        ]
+      },
+      {
+        "summary": "Is a go-to expert for best practices, setting a new standard for the team and providing strategic guidance to senior leadership.",
+        "signals": [
+          "Identifies and advocates for new best practices.",
+          "Creates a new standard for best practices that is adopted company-wide.",
+          "Is a sought-after resource for other teams on how to apply best practices to their work."
+        ],
+        "examples": [
+          "Authored a new guide for best practices that is adopted across the company.",
+          "Led a project to implement a new best practice.",
+          "Provided a detailed analysis to the executive team that informed a new product strategy."
+        ]
+      },
+      {
+        "summary": "Is a company-wide leader in best practice advocacy, defining and leading a culture of professional excellence.",
+        "signals": [
+          "Creates and implements a new process for best practice advocacy that is adopted company-wide.",
+          "Designs and leads training sessions on how to apply best practices to their work.",
+          "Is asked to review and approve all high-stakes deliverables for the company."
+        ],
+        "examples": [
+          "Authored a new guide for best practice advocacy that is adopted across the company.",
+          "Led a training session for the professional services team on how to apply best practices to their work.",
+          "Successfully negotiated and closed a high-stakes, multi-million dollar deal."
+        ]
+      },
+      {
+        "summary": "Is a recognized industry expert in best practice advocacy, influencing the company's long-term product and technical strategy.",
+        "signals": [
+          "Leads the design and implementation of a new best practice.",
+          "Is a sought-after resource for a sales team on how to pitch best practices.",
+          "Presents at industry conferences on best practices."
+        ],
+        "examples": [
+          "Led a project to design and build a new, highly-scalable best practice.",
+          "Successfully pitched a best practice to a top-tier client, securing a new contract.",
+          "Spoke at an industry conference on best practices."
+        ]
+      }
+    ]
+  }
+},
 }
 
 export const trackIds: TrackId[] = Object.keys(tracks)
