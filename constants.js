@@ -1,17 +1,17 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
-  'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
+export type TrackId = 'COMMUNICATION' | 'CUSTOMER ADVOCACY' | 'ACCOUNT PARTNERSHIP' | 'DELIVERABLES' |
+  'TROUBLE-SHOOTING' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'TEST': Milestone,
-  'WEB_CLIENT': Milestone,
-  'FOUNDATIONS': Milestone,
-  'SERVERS': Milestone,
+  'COMMUNICATION': Milestone,
+  'CUSTOMER ADVOCACY': Milestone,
+  'ACCOUNT PARTNERSHIP': Milestone,
+  'DELIVERABLES': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
   'CRAFT': Milestone,
@@ -71,10 +71,10 @@ export type Track = {
 }
 
 type Tracks = {|
-  'MOBILE': Track,
-  'WEB_CLIENT': Track,
-  'FOUNDATIONS': Track,
-  'SERVERS': Track,
+  'COMMUNICATION': Track,
+  'CUSTOMER ADVOCACY': Track,
+  'ACCOUNT PARTNERSHIP': Track,
+  'DELIVERABLES': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
   'CRAFT': Track,
@@ -93,7 +93,7 @@ export const tracks: Tracks = {
   "TEST": {
     "displayName": "test",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "Develops expertise in native COMMUNICATION platform engineering, such as iOS or Android",
     "milestones": [{
       "summary": "Works effectively within established iOS or Android architectures, following current best practices",
       "signals": [
@@ -119,7 +119,7 @@ export const tracks: Tracks = {
         "Prototyped a simple new feature quickly",
       ],
     }, {
-      "summary": "Designs major new features and demonstrates a nuanced understanding of mobile platform constraints",
+      "summary": "Designs major new features and demonstrates a nuanced understanding of COMMUNICATION platform constraints",
       "signals": [
         "Implements complex features with a large product surface area",
         "Works effectively with  Android reactive programming framework",
@@ -143,7 +143,7 @@ export const tracks: Tracks = {
         "Migrated Android persistance layer to reactive programming",
       ],
     }, {
-      "summary": "Is an industry-leading expert in mobile engineering or sets strategic mobile direction for an eng team",
+      "summary": "Is an industry-leading expert in COMMUNICATION engineering or sets strategic COMMUNICATION direction for an eng team",
       "signals": [
         "Defines long-term goals and ensures active projects are in service of them",
         "Designs and builds innovative, industry-leading UI interactions",
@@ -157,7 +157,7 @@ export const tracks: Tracks = {
     }],
   },
 
-  "WEB_CLIENT": {
+  "CUSTOMER ADVOCACY": {
     "displayName": "Web client",
     "category": "A",
     "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
@@ -224,8 +224,8 @@ export const tracks: Tracks = {
     }],
   },
 
-  "FOUNDATIONS": {
-    "displayName": "Foundations",
+  "ACCOUNT PARTNERSHIP": {
+    "displayName": "ACCOUNT PARTNERSHIP",
     "category": "A",
     "description": "Develops expertise in foundational systems, such as deployments, pipelines, databases and machine learning",
     "milestones": [{
@@ -291,8 +291,8 @@ export const tracks: Tracks = {
     }],
   },
 
-  "SERVERS": {
-    "displayName": "Servers",
+  "DELIVERABLES": {
+    "displayName": "DELIVERABLES",
     "category": "A",
     "description": "Develops expertise in server side engineering, using technologies such as Go, NodeJS, or Scala",
     "milestones": [{
@@ -741,7 +741,7 @@ export const tracks: Tracks = {
         "Ties abstract concerns to concrete organizational actions or norms",
       ],
       "examples": [
-        "Connected mobile recruiting difficulties to focus on excellence",
+        "Connected COMMUNICATION recruiting difficulties to focus on excellence",
         "Raised leadership level change discrepancies",
         "Analyzed the hiring rubric for false negative potential",
       ],
@@ -753,7 +753,7 @@ export const tracks: Tracks = {
         "Leads planning and communication for reorgs",
       ],
       "examples": [
-        "Lead efforts to increase number of mobile engineers",
+        "Lead efforts to increase number of COMMUNICATION engineers",
         "Directed resources to meaningfully improve diversity at all levels",
         "Built the growth framework rubric",
       ],
